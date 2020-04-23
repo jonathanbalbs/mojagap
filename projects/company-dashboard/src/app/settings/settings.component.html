@@ -1,0 +1,82 @@
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-title custom">
+                <h4>Reset Password</h4>
+            </div>
+            <div class="card-body">
+                <form>
+                    <h6 class="text-danger text-center" id="p-message"></h6>
+                    <div class="form-group">
+                        <input style="background-color: #1f1b16;" type="password" name="old_password" class="form-control" Value="Old Password">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="new_password" class="form-control" placeholder="New Password">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="new_repassword" class="form-control" placeholder="Re-Enter Password">
+                    </div>
+                    <button type="submit" id="passwordBtn" class="btn btn-success btn-xl btn-block">Reset</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-title">
+                <h4>2FA(Two factor authentication)</h4>
+            </div>
+            <div class="card-body">
+                <h5>Check to enable Email Authentication</h5><br>
+                <input type="checkbox" name="enable_auth" value="1"> <span> Enable</span><br><br>
+                <input type="checkbox" name="enable_auth" value="0" checked="checked"> <span>
+                Disable</span><br>
+                <h6 class="text-center text-danger" id="a-message"></h6>
+                <div style="border-bottom: 1px solid white; margin-top: 15px; margin-bottom: 5px;"></div>
+                <p class="text-muted">Enabling 2FA means the system will always automatically email a login pin to a user's registered email for an authorised login.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <div class="card secure-wallet">
+            <div class="card-title header-2fa text-center">
+                <h4 class="m-b-0 text-center">View CVV Code</h4>
+            </div>
+            <div class="card-body">
+                <div class="text-center text-muted text-small pb-3">Select card to show CVV</div>
+                <ul>
+                    <li>
+                        <label for="cancel1">
+                <input type="checkbox" name="cancel1" id="">
+                4200 3972 5692 1323
+              </label>
+                    </li>
+                    <li>
+                        <label for="cacel2">
+                    <input type="checkbox" name="cance2" id="">
+                    4178 3972 5542 6748
+                  </label>
+                    </li>
+                </ul>
+                <div class="form-group text-center col-lg-4 col-md-6 col-sm-12">
+                    <input type="text" name="password-for-key" class="form-control" value="Enter password">
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-success mt-3" id="private-key-btn">Show CVV</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-title">
+                <h4>Scan QR Code</h4>
+            </div>
+            <div class="card-body">
+                <img src="../../assets/qr-code.png" alt="" class="img-fluid img-custom">
+            </div>
+        </div>
+    </div>
+</div>

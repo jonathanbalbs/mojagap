@@ -1,0 +1,18 @@
+.footer {
+    background: transparent;
+    bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid #f6931d;
+}
+
+footer small {
+    font-size: 12px;
+    color: #f6931c;
+}
+
+.fa-custom {
+    color: #f6931c;
+    padding-right: 20px;
+    font-size: 20px;
+}

@@ -1,0 +1,87 @@
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-title text-center">
+                <h4>Buy new card</h4>
+            </div>
+            <div class="card-body">
+                <form action="#" method="post">
+                    <div class="text-center text-muted text-small pb-3">Select a subscription plan</div>
+                    <ul>
+                        <li><a href="#">UGX 800 per week</a></li>
+                        <li><a href="#">UGX 1500 per two weeks</a></li>
+                        <li><a href="#">UGX 2500 per month</a></li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-title text-center">
+                <h4>Revoke cards</h4>
+            </div>
+            <div class="card-body">
+                <div class="text-center text-muted text-small pb-3">Select card to revoke</div>
+                <ul>
+                    <li>
+                        <label for="cancel1">
+                  <input type="checkbox" name="cancel1" id="">
+                  4200 3972 5692 1323
+                </label>
+                    </li>
+                    <li>
+                        <label for="cacel2">
+                      <input type="checkbox" name="cance2" id="">
+                      4178 3972 5542 6748
+                    </label>
+                    </li>
+                </ul>
+                <div class="text-center">
+                    <button class="btn btn-outline-danger">Revoke</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<app-transact></app-transact>
+<div class="row">
+    <div class="col-md-12 card">
+        <div class="card-title text-center">
+            <h4>Your card details</h4>
+        </div>
+        <div class="card-body">
+            <div class="text-center text-muted text-small pb-3">Below is a list of a list of all your current and previous cards</div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Card Number</th>
+                        <th>Account balance</th>
+                        <th>Date created</th>
+                        <th>Card state</th>
+                        <th>Expiry date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>1</th>
+                        <td>4200 3972 5692 1323</td>
+                        <td>UGX 153700</td>
+                        <td>15/01/2020</td>
+                        <td>Active <i class="fa fa-circle text-success"></i></td>
+                        <td>27/03/2020</td>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td>4178 3972 5542 6748</td>
+                        <td>UGX 72900</td>
+                        <td>10/11/2019</td>
+                        <td>Expired <i class="fa fa-circle text-danger"></i></td>
+                        <td>13/01/2020</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,39 @@
+.navbar-custom {
+    border-bottom: 1px solid #f6931d;
+}
+
+a:active {
+    color: #f6931d;
+}
+
+.img-logo {
+    max-height: 28px;
+}
+
+.btn-outline-custom {
+    color: #f6931d;
+    border: 2px solid;
+    padding: 5px 20px;
+    border-radius: 30px;
+    width: 90px;
+    margin-right: 10px;
+}
+
+.btn-outline-custom:hover {
+    color: #000;
+    background-color: #fff;
+    border: 0px;
+}
+
+.btn-custom {
+    color: #fff;
+    background-color: #f6931d;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
+.btn-custom:hover {
+    color: #000;
+    background-color: #fff;
+    border: 0px;
+}

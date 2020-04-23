@@ -1,0 +1,99 @@
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header card-header-warning">
+                <h4 class="card-title">Recharge Card</h4>
+            </div>
+            <div class="card-body">
+                <p class="text-white text-small">Enter card details</p>
+                <form>
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="Email" class="form-control" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="number" class="form-control" placeholder="Amount">
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <a href="#" class="btn btn-outline-success">Recharge</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header card-header-danger">
+                <h4 class="card-title">Destroy Card</h4>
+            </div>
+            <div class="card-body">
+                <p class="text-white text-small">Enter email/Card number</p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Email" class="form-control">
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-outline-danger">Destroy</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="card">
+        <div class="card-header card-header-success">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4 class="card-title">Available Users</h4>
+                </div>
+                <div class="col-md-8">
+                    <form class="navbar-form">
+                        <div class="input-group no-border">
+                            <input type="text" value="" class="form-control" placeholder="Search user...">
+                            <button type="submit" class="btn btn-default btn-round btn-just-icon">
+                        <i class="fa fa-search"></i>
+                        <div class="ripple-container"></div>
+                      </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="card-body table-responsive">
+            <table class="table table-hover text-white">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Card Number</th>
+                        <th>Account balance</th>
+                        <th>Date created</th>
+                        <th>Card state</th>
+                        <th>Expiry date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>1</th>
+                        <td>4200 3972 5692 1323</td>
+                        <td>UGX 153700</td>
+                        <td>15/01/2020</td>
+                        <td>Active <i class="fa fa-circle text-success"></i></td>
+                        <td>27/03/2020</td>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td>4178 3972 5542 6748</td>
+                        <td>UGX 72900</td>
+                        <td>10/11/2019</td>
+                        <td>Expired <i class="fa fa-circle text-danger"></i></td>
+                        <td>13/01/2020</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

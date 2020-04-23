@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="daily-transactions.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   width="131.94388mm"
+   height="33.631821mm"
+   viewBox="0 0 131.94388 33.631821"
+   version="1.1"
+   id="svg8">
+  <defs
+     id="defs2">
+    <filter
+       y="-0.5"
+       x="-0.5"
+       width="3"
+       height="3"
+       id="filter">
+      <feGaussianBlur
+         id="feGaussianBlur1389"
+         stdDeviation="1.1" />
+    </filter>
+    <filter
+       y="-0.5"
+       x="-0.5"
+       width="3"
+       height="3"
+       id="filter3">
+      <feGaussianBlur
+         id="feGaussianBlur1444"
+         stdDeviation="1.1" />
+    </filter>
+    <filter
+       y="-0.5"
+       x="-0.5"
+       width="3"
+       height="3"
+       id="filterq">
+      <feGaussianBlur
+         id="feGaussianBlur1514"
+         stdDeviation="1.1" />
+    </filter>
+    <filter
+       y="-0.5"
+       x="-0.5"
+       width="3"
+       height="3"
+       id="filterqi">
+      <feGaussianBlur
+         id="feGaussianBlur1727"
+         stdDeviation="1.1" />
+    </filter>
+    <filter
+       y="-0.5"
+       x="-0.5"
+       width="3"
+       height="3"
+       id="filter-0">
+      <feGaussianBlur
+         id="feGaussianBlur1389-3"
+         stdDeviation="1.1" />
+    </filter>
+    <filter
+       y="-0.5"
+       x="-0.5"
+       width="3"
+       height="3"
+       id="filter1854">
+      <feGaussianBlur
+         id="feGaussianBlur1852"
+         stdDeviation="1.1" />
+    </filter>
+    <filter
+       y="-0.5"
+       x="-0.5"
+       width="3"
+       height="3"
+       id="filter1858">
+      <feGaussianBlur
+         id="feGaussianBlur1856"
+         stdDeviation="1.1" />
+    </filter>
+    <filter
+       y="-0.5"
+       x="-0.5"
+       width="3"
+       height="3"
+       id="filter-0-1">
+      <feGaussianBlur
+         id="feGaussianBlur1389-3-6"
+         stdDeviation="1.1" />
+    </filter>
+    <filter
+       y="-0.5"
+       x="-0.5"
+       width="3"
+       height="3"
+       id="filterG">
+      <feGaussianBlur
+         id="feGaussianBlur2076"
+         stdDeviation="1.1" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.91234752"
+     inkscape:cx="41.650027"
+     inkscape:cy="230.42421"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g2115"
+     showgrid="false"
+     showborder="false"
+     inkscape:pagecheckerboard="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1.7727332,-244.32761)" />
+  <g
+     id="g1145"
+     inkscape:groupmode="layer"
+     inkscape:label="Chart-Layer: ['TODAY:59', 'THISWEEK:169', 'THISMONTH:723']"
+     transform="translate(-1.7727332,-244.32761)" />
+  <g
+     id="g1190"
+     inkscape:groupmode="layer"
+     inkscape:label="Chart-Layer: ['TODAY:59', 'THISWEEK:169', 'THISMONTH:723']"
+     transform="translate(-1.7727332,-244.32761)" />
+  <g
+     id="g1251"
+     inkscape:groupmode="layer"
+     inkscape:label="Chart-Layer: ['TODAY:59', 'THISWEEK:169', 'THISMONTH:723']"
+     transform="translate(-1.7727332,-244.32761)" />
+  <g
+     id="g1342"
+     inkscape:groupmode="layer"
+     inkscape:label="Chart-Layer: ['TODAY:59', 'THISWEEK:169', 'THISMONTH:723']"
+     transform="translate(-1.7727332,-244.32761)" />
+  <g
+     id="g1424"
+     inkscape:groupmode="layer"
+     inkscape:label="Chart-Layer: ['Failed:0', 'Successful:83', 'Pending:3']"
+     transform="translate(118.24062,-139.32761)" />
+  <g
+     id="g1492"
+     inkscape:groupmode="layer"
+     inkscape:label="Chart-Layer: ['Failed:0', 'Successful:83', 'Pending:3']"
+     transform="translate(118.24062,-139.32761)" />
+  <g
+     id="g1575"
+     inkscape:groupmode="layer"
+     inkscape:label="Chart-Layer: ['Failed:0', 'Successful:83', 'Pending:3']"
+     transform="translate(118.24062,-139.32761)" />
+  <g
+     id="g1765"
+     inkscape:groupmode="layer"
+     inkscape:label="Chart-Layer: ['Failed:1', 'Successful:83', 'Pending:3']"
+     transform="translate(118.24062,-139.32761)" />
+  <g
+     id="g2115"
+     inkscape:groupmode="layer"
+     inkscape:label="Chart-Layer: ['Failed:0', 'Successful:69', 'Pending:0']"
+     transform="translate(0.81183175,-73.671248)">
+    <g
+       id="g2140">
+      <text
+         y="76.548592"
+         x="17"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:end;text-anchor:end;fill:#ffffff"
+         id="text2095">Failed</text>
+      <text
+         y="76.548592"
+         x="27"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:start;text-anchor:start;fill:#ffffff"
+         id="text2097">0</text>
+      <rect
+         y="82.548592"
+         x="22"
+         height="10"
+         width="100"
+         style="fill:#008000"
+         id="rect2101" />
+      <text
+         y="91.548592"
+         x="17"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:end;text-anchor:end;fill:#ffffff"
+         id="text2103">Successful</text>
+      <text
+         y="91.548592"
+         x="127"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:start;text-anchor:start;fill:#ffffff"
+         id="text2105">69</text>
+      <text
+         y="106.54859"
+         x="17"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:end;text-anchor:end;fill:#ffffff"
+         id="text2111">Pending</text>
+      <text
+         y="106.54859"
+         x="27"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:start;text-anchor:start;fill:#ffffff"
+         id="text2113">0</text>
+    </g>
+  </g>
+</svg>

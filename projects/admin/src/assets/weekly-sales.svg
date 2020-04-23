@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg1545"
+   sodipodi:docname="weekly-sales.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   width="845.05896"
+   height="572.60364">
+  <metadata
+     id="metadata1551">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1549" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview1547"
+     showgrid="false"
+     showborder="false"
+     inkscape:pagecheckerboard="true"
+     inkscape:zoom="0.51196774"
+     inkscape:cx="173.40103"
+     inkscape:cy="359.24671"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1545"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <desc
+     id="desc1254">JavaScript chart by amCharts 3.21.15</desc>
+  <g
+     id="g1244"
+     transform="translate(32.000004)">
+    <g
+       transform="matrix(0.55403014,0,0,1.6601149,94.628084,6.1705687)"
+       id="g1308">
+      <g
+         id="g1266">
+        <path
+           cs="100,100"
+           d="m 91.5,0.5 v 5"
+           transform="translate(0,263)"
+           id="path1262"
+           inkscape:connector-curvature="0"
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" />
+        <path
+           cs="100,100"
+           d="m 0.5,263.5 v 0 -263"
+           id="path1264"
+           inkscape:connector-curvature="0"
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:0.15" />
+      </g>
+      <g
+         id="g1272">
+        <path
+           cs="100,100"
+           d="m 272.5,0.5 v 5"
+           transform="translate(0,263)"
+           id="path1268"
+           inkscape:connector-curvature="0"
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" />
+        <path
+           cs="100,100"
+           d="m 181.5,263.5 v 0 -263"
+           id="path1270"
+           inkscape:connector-curvature="0"
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:0.15" />
+      </g>
+      <g
+         id="g1278">
+        <path
+           cs="100,100"
+           d="m 454.5,0.5 v 5"
+           transform="translate(0,263)"
+           id="path1274"
+           inkscape:connector-curvature="0"
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" />
+        <path
+           cs="100,100"
+           d="m 363.5,263.5 v 0 -263"
+           id="path1276"
+           inkscape:connector-curvature="0"
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:0.15" />
+      </g>
+      <g
+         id="g1284">
+        <path
+           cs="100,100"
+           d="m 636.5,0.5 v 5"
+           transform="translate(0,263)"
+           id="path1280"
+           inkscape:connector-curvature="0"
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" />
+        <path
+           cs="100,100"
+           d="m 545.5,263.5 v 0 -263"
+           id="path1282"
+           inkscape:connector-curvature="0"
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:0.15" />
+      </g>
+      <g
+         id="g1290">
+        <path
+           cs="100,100"
+           d="m 817.5,0.5 v 5"
+           transform="translate(0,263)"
+           id="path1286"
+           inkscape:connector-curvature="0"
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" />
+        <path
+           cs="100,100"
+           d="m 726.5,263.5 v 0 -263"
+           id="path1288"
+           inkscape:connector-curvature="0"
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:0.15" />
+      </g>
+      <g
+         id="g1296">
+        <path
+           cs="100,100"
+           d="m 999.5,0.5 v 5"
+           transform="translate(0,263)"
+           id="path1292"
+           inkscape:connector-curvature="0"
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" />
+        <path
+           cs="100,100"
+           d="m 908.5,263.5 v 0 -263"
+           id="path1294"
+           inkscape:connector-curvature="0"
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:0.15" />
+      </g>
+      <g
+         id="g1302">
+        <path
+           cs="100,100"
+           d="m 1180.5,0.5 v 5"
+           transform="translate(0,263)"
+           id="path1298"
+           inkscape:connector-curvature="0"
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1" />
+        <path
+           cs="100,100"
+           d="m 1089.5,263.5 v 0 -263"
+           id="path1300"
+           inkscape:connector-curvature="0"
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:0.15" />
+      </g>
+      <g
+         id="g1306">
+        <path
+           cs="100,100"
+           d="m 1271.5,263.5 v 0 -263"
+           id="path1304"
+           inkscape:connector-curvature="0"
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:0.15" />
+      </g>
+    </g>
+    <g
+       transform="matrix(0.55403014,0,0,1.6601149,94.628084,6.1705687)"
+       id="g1314"
+       style="visibility:visible">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+         inkscape:connector-curvature="0"
+         id="path1310"
+         transform="translate(-6)"
+         d="m 0.5,263.5 h 6"
+         cs="100,100" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:0.15"
+         inkscape:connector-curvature="0"
+         id="path1312"
+         d="m 0.5,263.5 v 0 h 1271"
+         cs="100,100" />
+    </g>
+    <g
+       transform="matrix(0.55403014,0,0,1.6601149,94.628084,6.1705687)"
+       id="g1320"
+       style="visibility:visible">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+         inkscape:connector-curvature="0"
+         id="path1316"
+         transform="translate(-6)"
+         d="m 0.5,210.5 h 6"
+         cs="100,100" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:0.15"
+         inkscape:connector-curvature="0"
+         id="path1318"
+         d="m 0.5,210.5 v 0 h 1271"
+         cs="100,100" />
+    </g>
+    <g
+       transform="matrix(0.55403014,0,0,1.6601149,94.628084,6.1705687)"
+       id="g1326"
+       style="visibility:visible">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+         inkscape:connector-curvature="0"
+         id="path1322"
+         transform="translate(-6)"
+         d="m 0.5,158.5 h 6"
+         cs="100,100" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:0.15"
+         inkscape:connector-curvature="0"
+         id="path1324"
+         d="m 0.5,158.5 v 0 h 1271"
+         cs="100,100" />
+    </g>
+    <g
+       transform="matrix(0.55403014,0,0,1.6601149,94.628084,6.1705687)"
+       id="g1332"
+       style="visibility:visible">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+         inkscape:connector-curvature="0"
+         id="path1328"
+         transform="translate(-6)"
+         d="m 0.5,105.5 h 6"
+         cs="100,100" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:0.15"
+         inkscape:connector-curvature="0"
+         id="path1330"
+         d="m 0.5,105.5 v 0 h 1271"
+         cs="100,100" />
+    </g>
+    <g
+       transform="matrix(0.55403014,0,0,1.6601149,94.628084,6.1705687)"
+       id="g1338"
+       style="visibility:visible">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+         inkscape:connector-curvature="0"
+         id="path1334"
+         transform="translate(-6)"
+         d="m 0.5,53.5 h 6"
+         cs="100,100" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:0.15"
+         inkscape:connector-curvature="0"
+         id="path1336"
+         d="m 0.5,53.5 v 0 h 1271"
+         cs="100,100" />
+    </g>
+    <g
+       transform="matrix(0.55403014,0,0,1.6601149,94.628084,6.1705687)"
+       id="g1344"
+       style="visibility:visible">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1"
+         inkscape:connector-curvature="0"
+         id="path1340"
+         transform="translate(-6)"
+         d="m 0.5,0.5 h 6"
+         cs="100,100" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:0.15"
+         inkscape:connector-curvature="0"
+         id="path1342"
+         d="m 0.5,0.5 v 0 h 1271"
+         cs="100,100" />
+    </g>
+    <g
+       transform="matrix(0.55403014,0,0,1.6601149,94.628084,6.1705687)"
+       id="g1369">
+      <g
+         id="g1358" />
+      <g
+         clip-path="url(#AmChartsEl-7)"
+         id="g1362">
+        <path
+           cs="100,100"
+           d="m 91,53 c 45,2 90,44 181,52 91,8 91,99 182,105 91,7 91,27 182,27 91,0 90,-24 181,-27 91,-2 91,-21 182,-26 91,-5 136,-75 181,-79"
+           id="path1360"
+           inkscape:connector-curvature="0"
+           style="fill:none;fill-opacity:0;stroke:#ff6600;stroke-width:1;stroke-opacity:1" />
+      </g>
+      <clipPath
+         id="AmChartsEl-7">
+        <rect
+           x="0"
+           y="0"
+           width="1271"
+           height="263"
+           rx="0"
+           ry="0"
+           id="rect1364"
+           style="stroke-width:0" />
+      </clipPath>
+      <g
+         id="g1367" />
+    </g>
+    <g
+       transform="matrix(0.55403014,0,0,1.6601149,94.628084,6.1705687)"
+       id="g1382">
+      <g
+         id="g1371" />
+      <g
+         clip-path="url(#AmChartsEl-8)"
+         id="g1375">
+        <path
+           cs="100,100"
+           d="m 91,132 c 45,-3 90,-56 181,-53 91,3 91,100 182,105 91,5 91,-3 182,0 91,3 90,51 181,53 91,1 91,-17 182,-27 91,-9 136,-150 181,-157"
+           id="path1373"
+           inkscape:connector-curvature="0"
+           style="fill:none;fill-opacity:0;stroke:#fcd202;stroke-width:1;stroke-opacity:1" />
+      </g>
+      <clipPath
+         id="AmChartsEl-8">
+        <rect
+           x="0"
+           y="0"
+           width="1271"
+           height="263"
+           rx="0"
+           ry="0"
+           id="rect1377"
+           style="stroke-width:0" />
+      </clipPath>
+      <g
+         id="g1380" />
+    </g>
+    <g
+       style="stroke:#00ff09;stroke-opacity:1"
+       transform="matrix(0.55403014,0,0,1.6601149,94.628084,6.1705687)"
+       id="g1395">
+      <g
+         style="stroke:#00ff09;stroke-opacity:1"
+         id="g1384" />
+      <g
+         style="stroke:#00ff09;stroke-opacity:1"
+         clip-path="url(#AmChartsEl-9)"
+         id="g1388">
+        <path
+           cs="100,100"
+           d="m 91,105 c 45,5 90,98 181,105 91,8 91,60 182,53 91,-7 91,-179 182,-184 91,-5 90,75 181,79 91,4 91,4 182,0 91,-4 136,-75 181,-79"
+           id="path1386"
+           inkscape:connector-curvature="0"
+           style="fill:none;fill-opacity:0;stroke:#00ff09;stroke-width:1;stroke-opacity:1" />
+      </g>
+      <clipPath
+         id="AmChartsEl-9">
+        <rect
+           x="0"
+           y="0"
+           width="1271"
+           height="263"
+           rx="0"
+           ry="0"
+           id="rect1390"
+           style="stroke-width:0" />
+      </clipPath>
+      <g
+         style="stroke:#00ff09;stroke-opacity:1"
+         id="g1393" />
+    </g>
+    <path
+       cs="100,100"
+       d="M 94.905103,443.61084 H 799.07739 v 0"
+       id="path1401"
+       style="fill:none;stroke:#ffffff;stroke-width:0.9590379;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+    <g
+       transform="matrix(0.55403014,0,0,1.6601149,62.494326,-81.815521)"
+       id="g1405"
+       style="stroke:#ffffff;stroke-width:1.70618713;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+      <path
+         cs="100,100"
+         d="m 0.5,0.5 h 1271"
+         transform="translate(58,316)"
+         id="path1403"
+         style="fill:none;stroke:#ffffff;stroke-width:1.70618713;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="matrix(0.55403014,0,0,1.6601149,62.494326,-81.815521)"
+       id="g1409"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:5.97165489;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+      <path
+         cs="100,100"
+         d="m 0.5,0.5 v 263"
+         transform="translate(58,53)"
+         visibility="visible"
+         id="path1407"
+         style="visibility:visible;fill:#ffffff;stroke:#ffffff;stroke-width:5.97165489;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="matrix(0.55403014,0,0,1.6601149,94.628084,6.1705687)"
+       id="g1431">
+      <circle
+         r="4"
+         cx="0"
+         cy="0"
+         transform="translate(91,53)"
+         aria-label="UGX800 Cards S 8"
+         id="circle1417"
+         style="fill:#ff6600;fill-opacity:1;stroke:#ff6600;stroke-width:2;stroke-opacity:0" />
+      <circle
+         r="4"
+         cx="0"
+         cy="0"
+         transform="translate(272,105)"
+         aria-label="UGX800 Cards M 6"
+         id="circle1419"
+         style="fill:#ff6600;fill-opacity:1;stroke:#ff6600;stroke-width:2;stroke-opacity:0" />
+      <circle
+         r="4"
+         cx="0"
+         cy="0"
+         transform="translate(454,210)"
+         aria-label="UGX800 Cards T 2"
+         id="circle1421"
+         style="fill:#ff6600;fill-opacity:1;stroke:#ff6600;stroke-width:2;stroke-opacity:0" />
+      <circle
+         r="4"
+         cx="0"
+         cy="0"
+         transform="translate(636,237)"
+         aria-label="UGX800 Cards W 1"
+         id="circle1423"
+         style="fill:#ff6600;fill-opacity:1;stroke:#ff6600;stroke-width:2;stroke-opacity:0" />
+      <circle
+         r="4"
+         cx="0"
+         cy="0"
+         transform="translate(817,210)"
+         aria-label="UGX800 Cards T 2"
+         id="circle1425"
+         style="fill:#ff6600;fill-opacity:1;stroke:#ff6600;stroke-width:2;stroke-opacity:0" />
+      <circle
+         r="4"
+         cx="0"
+         cy="0"
+         transform="translate(999,184)"
+         aria-label="UGX800 Cards F 3"
+         id="circle1427"
+         style="fill:#ff6600;fill-opacity:1;stroke:#ff6600;stroke-width:2;stroke-opacity:0" />
+      <circle
+         r="4"
+         cx="0"
+         cy="0"
+         transform="translate(1180,105)"
+         aria-label="UGX800 Cards S 6"
+         id="circle1429"
+         style="fill:#ff6600;fill-opacity:1;stroke:#ff6600;stroke-width:2;stroke-opacity:0" />
+    </g>
+    <g
+       transform="matrix(0.55403014,0,0,1.6601149,94.628084,6.1705687)"
+       id="g1447">
+      <path
+         cs="100,100"
+         d="m -3.5,4.5 h 8 v -8 h -8 z"
+         transform="translate(91,132)"
+         aria-label="UGX1500 Cards S 5"
+         id="path1433"
+         inkscape:connector-curvature="0"
+         style="fill:#fcd202;fill-opacity:1;stroke:#fcd202;stroke-width:2;stroke-opacity:0" />
+      <path
+         cs="100,100"
+         d="m -3.5,4.5 h 8 v -8 h -8 z"
+         transform="translate(272,79)"
+         aria-label="UGX1500 Cards M 7"
+         id="path1435"
+         inkscape:connector-curvature="0"
+         style="fill:#fcd202;fill-opacity:1;stroke:#fcd202;stroke-width:2;stroke-opacity:0" />
+      <path
+         cs="100,100"
+         d="m -3.5,4.5 h 8 v -8 h -8 z"
+         transform="translate(454,184)"
+         aria-label="UGX1500 Cards T 3"
+         id="path1437"
+         inkscape:connector-curvature="0"
+         style="fill:#fcd202;fill-opacity:1;stroke:#fcd202;stroke-width:2;stroke-opacity:0" />
+      <path
+         cs="100,100"
+         d="m -3.5,4.5 h 8 v -8 h -8 z"
+         transform="translate(636,184)"
+         aria-label="UGX1500 Cards W 3"
+         id="path1439"
+         inkscape:connector-curvature="0"
+         style="fill:#fcd202;fill-opacity:1;stroke:#fcd202;stroke-width:2;stroke-opacity:0" />
+      <path
+         cs="100,100"
+         d="m -3.5,4.5 h 8 v -8 h -8 z"
+         transform="translate(817,237)"
+         aria-label="UGX1500 Cards T 1"
+         id="path1441"
+         inkscape:connector-curvature="0"
+         style="fill:#fcd202;fill-opacity:1;stroke:#fcd202;stroke-width:2;stroke-opacity:0" />
+      <path
+         cs="100,100"
+         d="m -3.5,4.5 h 8 v -8 h -8 z"
+         transform="translate(999,210)"
+         aria-label="UGX1500 Cards F 2"
+         id="path1443"
+         inkscape:connector-curvature="0"
+         style="fill:#fcd202;fill-opacity:1;stroke:#fcd202;stroke-width:2;stroke-opacity:0" />
+      <path
+         cs="100,100"
+         d="m -3.5,4.5 h 8 v -8 h -8 z"
+         transform="translate(1180,53)"
+         aria-label="UGX1500 Cards S 8"
+         id="path1445"
+         inkscape:connector-curvature="0"
+         style="fill:#fcd202;fill-opacity:1;stroke:#fcd202;stroke-width:2;stroke-opacity:0" />
+    </g>
+    <g
+       style="stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0.55403014,0,0,1.6601149,94.628084,6.1705687)"
+       id="g1463">
+      <path
+         cs="100,100"
+         d="m -3.5,4.5 h 8 v -8 h -8 z"
+         transform="translate(91,105)"
+         aria-label="UGX2500 Cards S 6"
+         id="path1449"
+         inkscape:connector-curvature="0"
+         style="fill:#b0de09;fill-opacity:1;stroke:#b0de09;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0" />
+      <path
+         cs="100,100"
+         d="m -3.5,4.5 h 8 v -8 h -8 z"
+         transform="translate(272,210)"
+         aria-label="UGX2500 Cards M 2"
+         id="path1451"
+         inkscape:connector-curvature="0"
+         style="fill:#b0de09;fill-opacity:1;stroke:#b0de09;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0" />
+      <path
+         cs="100,100"
+         d="m -3.5,4.5 h 8 v -8 h -8 z"
+         transform="translate(454,263)"
+         aria-label="UGX2500 Cards T 0"
+         id="path1453"
+         inkscape:connector-curvature="0"
+         style="fill:#b0de09;fill-opacity:1;stroke:#b0de09;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0" />
+      <path
+         cs="100,100"
+         d="m -3.5,4.5 h 8 v -8 h -8 z"
+         transform="translate(636,79)"
+         aria-label="UGX2500 Cards W 7"
+         id="path1455"
+         inkscape:connector-curvature="0"
+         style="fill:#b0de09;fill-opacity:1;stroke:#b0de09;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0" />
+      <path
+         cs="100,100"
+         d="m -3.5,4.5 h 8 v -8 h -8 z"
+         transform="translate(817,158)"
+         aria-label="UGX2500 Cards T 4"
+         id="path1457"
+         inkscape:connector-curvature="0"
+         style="fill:#b0de09;fill-opacity:1;stroke:#b0de09;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0" />
+      <path
+         cs="100,100"
+         d="m -3.5,4.5 h 8 v -8 h -8 z"
+         transform="translate(999,158)"
+         aria-label="UGX2500 Cards F 4"
+         id="path1459"
+         inkscape:connector-curvature="0"
+         style="fill:#b0de09;fill-opacity:1;stroke:#b0de09;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0" />
+      <path
+         cs="100,100"
+         d="m -3.5,4.5 h 8 v -8 h -8 z"
+         transform="translate(1180,79)"
+         aria-label="UGX2500 Cards S 7"
+         id="path1461"
+         inkscape:connector-curvature="0"
+         style="fill:#b0de09;fill-opacity:1;stroke:#b0de09;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0" />
+    </g>
+    <text
+       transform="scale(0.98565356,1.0145553)"
+       id="text2419"
+       y="471.79263"
+       x="141.84863"
+       style="font-style:normal;font-weight:normal;font-size:30.54423141px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.63629818"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.54423141px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#ffffff;stroke-width:1.63629818"
+         y="471.79263"
+         x="141.84863"
+         id="tspan2417"
+         sodipodi:role="line">S</tspan></text>
+    <text
+       transform="scale(0.98565356,1.0145553)"
+       id="text2419-5"
+       y="471.74789"
+       x="237.791"
+       style="font-style:normal;font-weight:normal;font-size:65.45192719px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.63629818"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.54423141px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#ffffff;stroke-width:1.63629818"
+         y="471.74789"
+         x="237.791"
+         id="tspan2417-6"
+         sodipodi:role="line">M</tspan></text>
+    <text
+       transform="scale(0.98565356,1.0145553)"
+       id="text2419-2"
+       y="471.74789"
+       x="345.62744"
+       style="font-style:normal;font-weight:normal;font-size:65.45192719px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.63629818"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.54423141px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#ffffff;stroke-width:1.63629818"
+         y="471.74789"
+         x="345.62744"
+         id="tspan2417-4"
+         sodipodi:role="line">T</tspan></text>
+    <text
+       transform="scale(0.98565356,1.0145553)"
+       id="text2419-1"
+       y="471.79263"
+       x="441.41141"
+       style="font-style:normal;font-weight:normal;font-size:65.45192719px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.63629818"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.54423141px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#ffffff;stroke-width:1.63629818"
+         y="471.79263"
+         x="441.41141"
+         id="tspan2417-8"
+         sodipodi:role="line">W</tspan></text>
+    <text
+       transform="scale(0.98565356,1.0145553)"
+       id="text2419-0"
+       y="471.74789"
+       x="549.72675"
+       style="font-style:normal;font-weight:normal;font-size:65.45192719px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.63629818"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.54423141px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#ffffff;stroke-width:1.63629818"
+         y="471.74789"
+         x="549.72675"
+         id="tspan2417-5"
+         sodipodi:role="line">T</tspan></text>
+    <text
+       transform="scale(0.98565356,1.0145553)"
+       id="text2419-03"
+       y="471.74789"
+       x="651.82123"
+       style="font-style:normal;font-weight:normal;font-size:65.45192719px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.63629818"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.54423141px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#ffffff;stroke-width:1.63629818"
+         y="471.74789"
+         x="651.82123"
+         id="tspan2417-59"
+         sodipodi:role="line">F</tspan></text>
+    <text
+       transform="scale(0.98565356,1.0145553)"
+       id="text2419-01"
+       y="471.79263"
+       x="754.14691"
+       style="font-style:normal;font-weight:normal;font-size:65.45192719px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.63629818"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.54423141px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#ffffff;stroke-width:1.63629818"
+         y="471.79263"
+         x="754.14691"
+         id="tspan2417-7"
+         sodipodi:role="line">S</tspan></text>
+    <text
+       transform="scale(0.98565352,1.0145553)"
+       id="text2419-6"
+       y="436.42657"
+       x="18.367325"
+       style="font-style:normal;font-weight:normal;font-size:30.54423141px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.63629818"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.54423141px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#ffffff;stroke-width:1.63629818"
+         y="436.42657"
+         x="18.367325"
+         id="tspan2417-42"
+         sodipodi:role="line">0</tspan></text>
+    <text
+       transform="scale(0.98565352,1.0145553)"
+       id="text2419-06"
+       y="353.06964"
+       x="9.9333582"
+       style="font-style:normal;font-weight:normal;font-size:30.54423141px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.63629818"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.54423141px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#ffffff;stroke-width:1.63629818"
+         y="353.06964"
+         x="9.9333582"
+         id="tspan2417-9"
+         sodipodi:role="line">100</tspan></text>
+    <text
+       transform="scale(0.98565352,1.0145553)"
+       id="text2419-4"
+       y="269.71271"
+       x="10.38078"
+       style="font-style:normal;font-weight:normal;font-size:30.54423141px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.63629818"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.54423141px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#ffffff;stroke-width:1.63629818"
+         y="269.71271"
+         x="10.38078"
+         id="tspan2417-0"
+         sodipodi:role="line">200</tspan></text>
+    <text
+       transform="scale(0.98565352,1.0145553)"
+       id="text2419-7"
+       y="186.35583"
+       x="10.403153"
+       style="font-style:normal;font-weight:normal;font-size:30.54423141px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.63629818"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.54423141px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#ffffff;stroke-width:1.63629818"
+         y="186.35583"
+         x="10.403153"
+         id="tspan2417-92"
+         sodipodi:role="line">300</tspan></text>
+    <text
+       transform="scale(0.98565352,1.0145553)"
+       id="text2419-14"
+       y="102.99889"
+       x="10.768582"
+       style="font-style:normal;font-weight:normal;font-size:30.54423141px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.63629818"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.54423141px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#ffffff;stroke-width:1.63629818"
+         y="102.99889"
+         x="10.768582"
+         id="tspan2417-80"
+         sodipodi:role="line">400</tspan></text>
+    <text
+       transform="scale(0.98565352,1.0145553)"
+       id="text2419-145"
+       y="19.64197"
+       x="10.32116"
+       style="font-style:normal;font-weight:normal;font-size:30.54423141px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.63629818"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.54423141px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#ffffff;stroke-width:1.63629818"
+         y="19.64197"
+         x="10.32116"
+         id="tspan2417-2"
+         sodipodi:role="line">500</tspan></text>
+    <g
+       transform="matrix(1.6128231,0,0,1.6601149,50.971689,-105.05713)"
+       id="g3152">
+      <g
+         id="g2952"
+         transform="translate(-7.5036851,42.208451)">
+        <g
+           transform="translate(7.1100698,352.82793)"
+           id="g2793">
+          <path
+             id="path2789"
+             d="m 0.5,8.5 h 32"
+             cs="100,100"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#ff6600;stroke-width:1;stroke-opacity:1" />
+          <circle
+             id="circle2791"
+             transform="translate(17,8)"
+             cy="0"
+             cx="0"
+             r="4"
+             style="fill:#ff6600;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:0" />
+        </g>
+        <text
+           x="44.110069"
+           id="text2797"
+           font-size="11px"
+           y="365.82794"
+           style="font-size:11px;font-family:Verdana;text-anchor:start;opacity:1;fill:#000000">
+          <tspan
+             id="tspan2795"
+             x="44.110069"
+             y="365.82794"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.66725349px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#ffffff">UGX800 Cards</tspan>
+        </text>
+      </g>
+      <g
+         id="g2938"
+         transform="translate(23.50032,39.830076)">
+        <g
+           transform="translate(145.65288,354.78118)"
+           id="g2809">
+          <path
+             id="path2805"
+             d="m 0.5,8.5 h 32"
+             cs="100,100"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#fcd202;stroke-width:1;stroke-opacity:1" />
+          <path
+             id="path2807"
+             transform="translate(17,8)"
+             d="m -3.5,4.5 h 8 v -8 h -8 z"
+             cs="100,100"
+             inkscape:connector-curvature="0"
+             style="fill:#fcd202;fill-opacity:1;stroke:#fcd202;stroke-width:2;stroke-opacity:0" />
+        </g>
+        <text
+           x="182.65288"
+           id="text2813"
+           font-size="11px"
+           y="367.78119"
+           style="font-size:14.66725349px;font-family:Verdana;text-anchor:start;opacity:1;fill:#000000">
+          <tspan
+             id="tspan2811"
+             x="182.65288"
+             y="367.78119"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.66725349px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#ffffff">UGX1500 Cards</tspan>
+        </text>
+      </g>
+      <g
+         id="g2966"
+         transform="translate(46.193634,37.876826)">
+        <g
+           transform="translate(295.89181,356.73443)"
+           id="g2825">
+          <path
+             id="path2821"
+             d="m 0.5,8.5 h 32"
+             cs="100,100"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#b0de09;stroke-width:1;stroke-opacity:1" />
+          <path
+             id="path2823"
+             transform="translate(17,8)"
+             d="m -3.5,4.5 h 8 v -8 h -8 z"
+             cs="100,100"
+             inkscape:connector-curvature="0"
+             style="fill:#b0de09;fill-opacity:1;stroke:#b0de09;stroke-width:2;stroke-opacity:0" />
+        </g>
+        <text
+           x="332.89182"
+           id="text2829"
+           font-size="11px"
+           y="369.73444"
+           style="font-size:14.66725349px;font-family:Verdana;text-anchor:start;opacity:1;fill:#000000">
+          <tspan
+             id="tspan2827"
+             x="332.89182"
+             y="369.73444"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.66725349px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#ffffff">UGX2500 Cards</tspan>
+        </text>
+      </g>
+    </g>
+    <text
+       transform="scale(0.98565356,1.0145553)"
+       id="text3110"
+       y="515.75311"
+       x="358.52158"
+       style="font-style:normal;font-weight:normal;font-size:65.45192719px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.63629818"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:34.90769577px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#ffffff;stroke-width:1.63629818"
+         y="515.75311"
+         x="358.52158"
+         id="tspan3108"
+         sodipodi:role="line">Week Day</tspan></text>
+    <text
+       transform="matrix(0,-1.0145553,0.98565352,0,0,0)"
+       id="text3114"
+       y="-8.7394495"
+       x="-275.78537"
+       style="font-style:normal;font-weight:normal;font-size:65.45192719px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.63629818"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:34.90769577px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#ffffff;stroke-width:1.63629818"
+         y="-8.7394495"
+         x="-275.78537"
+         id="tspan3112"
+         sodipodi:role="line">Cards Sold</tspan></text>
+  </g>
+</svg>

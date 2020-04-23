@@ -1,0 +1,9 @@
+di.card-body {
+    font-size: 13px;
+}
+
+.state-active {
+    height: 10px;
+    width: 10px;
+    margin-left: 20px;
+}

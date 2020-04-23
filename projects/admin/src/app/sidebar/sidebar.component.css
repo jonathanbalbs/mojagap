@@ -1,0 +1,14 @@
+.sidebar-custom {
+    background-color: #042533;
+}
+
+.logo-custom {
+    max-width: 45%;
+}
+
+.sidebar-link {
+    color: #a9afbbd1;
+    vertical-align: middle;
+    padding-top: 10px;
+    font-size: 15px;
+}

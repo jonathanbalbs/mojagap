@@ -1,0 +1,41 @@
+.card {
+    background-color: #042533;
+    box-shadow: 0px 0px 20px 5px #000;
+}
+
+.table tr th {
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.table tr td {
+    font-size: 12px;
+}
+
+.btn-outline-danger {
+    text-transform: capitalize;
+}
+
+.btn-outline-danger:hover {
+    background-color: red;
+    border-color: white;
+    color: white;
+}
+
+.form-control {
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px slid white;
+    color: white;
+}
+
+.form-control:active {
+    border-bottom: 2px solid white;
+    background-image: none;
+}
+
+.btn-round {
+    background-color: transparent;
+    border: 0px;
+    color: white;
+}

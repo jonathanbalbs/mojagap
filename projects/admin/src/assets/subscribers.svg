@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 138.13344 40"
+   height="40mm"
+   width="138.13344mm"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="subscribers.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.91234752"
+     inkscape:cx="245.07409"
+     inkscape:cy="231.2662"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g1342"
+     showgrid="false"
+     showborder="true"
+     inkscape:pagecheckerboard="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-120.01335,-105)" />
+  <g
+     id="g1145"
+     inkscape:groupmode="layer"
+     inkscape:label="Chart-Layer: ['TODAY:59', 'THISWEEK:169', 'THISMONTH:723']"
+     transform="translate(-120.01335,-105)" />
+  <g
+     id="g1190"
+     inkscape:groupmode="layer"
+     inkscape:label="Chart-Layer: ['TODAY:59', 'THISWEEK:169', 'THISMONTH:723']"
+     transform="translate(-120.01335,-105)" />
+  <g
+     id="g1251"
+     inkscape:groupmode="layer"
+     inkscape:label="Chart-Layer: ['TODAY:59', 'THISWEEK:169', 'THISMONTH:723']"
+     transform="translate(-120.01335,-105)" />
+  <g
+     id="g1342"
+     inkscape:groupmode="layer"
+     inkscape:label="Chart-Layer: ['TODAY:59', 'THISWEEK:169', 'THISMONTH:723']"
+     transform="translate(-120.01335,-105)">
+    <rect
+       id="rect1324"
+       style="fill:#0000ff"
+       width="8"
+       height="10"
+       x="148.5"
+       y="105" />
+    <text
+       id="text1326"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444447px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:end;text-anchor:end;fill:#ffffff"
+       x="146.40002"
+       y="111.64418">Today</text>
+    <text
+       id="text1328"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444447px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:start;text-anchor:start;fill:#ffffff"
+       x="157.95633"
+       y="111.35418">59</text>
+    <rect
+       id="rect1330"
+       style="fill:#ff0000"
+       width="23"
+       height="10"
+       x="148.5"
+       y="120" />
+    <text
+       id="text1332"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444447px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:end;text-anchor:end;fill:#ffffff"
+       x="146.4138"
+       y="126.64418">This Week</text>
+    <text
+       id="text1334"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444447px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:start;text-anchor:start;fill:#ffffff"
+       x="173.17072"
+       y="126.35418">169</text>
+    <rect
+       id="rect1336"
+       style="fill:#00ff00"
+       width="100"
+       height="10"
+       x="148.5"
+       y="135" />
+    <text
+       id="text1338"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444447px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:end;text-anchor:end;fill:#ffffff"
+       x="146.67012"
+       y="141.64421">This Month</text>
+    <text
+       id="text1340"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444447px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:start;text-anchor:start;fill:#ffffff"
+       x="249.79588"
+       y="141.3542">723</text>
+  </g>
+</svg>

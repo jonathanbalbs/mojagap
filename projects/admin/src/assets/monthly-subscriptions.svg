@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 53.666764 63.026485"
+   height="63.026485mm"
+   width="53.666763mm"
+   sodipodi:docname="monthly-subscriptions.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <defs
+     id="defs2">
+    <filter
+       y="-0.5"
+       x="-0.5"
+       width="3"
+       height="3"
+       id="filter">
+      <feGaussianBlur
+         id="feGaussianBlur1600"
+         stdDeviation="1.1" />
+    </filter>
+    <filter
+       y="-0.5"
+       x="-0.5"
+       width="3"
+       height="3"
+       id="filtert">
+      <feGaussianBlur
+         id="feGaussianBlur1898"
+         stdDeviation="1.1" />
+    </filter>
+    <filter
+       y="-0.5"
+       x="-0.5"
+       width="3"
+       height="3"
+       id="filterD">
+      <feGaussianBlur
+         id="feGaussianBlur2364"
+         stdDeviation="1.1" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="193.28669"
+     inkscape:cy="131.36045"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g2508"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showborder="false"
+     inkscape:pagecheckerboard="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-35.885266,-254.63733)" />
+  <g
+     id="g1703"
+     inkscape:groupmode="layer"
+     inkscape:label="Chart-Layer: ['A:310', 'M:210', 'J:90', 'J:223', 'A:198', 'S:173', 'O:192', 'N:219', 'D:206', 'J:129', 'F:234', 'M:200']"
+     transform="translate(-35.885266,-254.63733)" />
+  <g
+     id="g2042"
+     inkscape:groupmode="layer"
+     inkscape:label="Chart-Layer: ['A:310', 'M:210', 'J:90', 'J:223', 'A:198', 'S:173', 'O:192', 'N:219', 'D:206', 'J:129', 'F:234', 'M:200']"
+     transform="translate(-35.885266,-254.63733)" />
+  <g
+     id="g2508"
+     inkscape:groupmode="layer"
+     inkscape:label="Chart-Layer: ['Apr:310', 'May:210', 'Jun:90', 'Jul:223', 'Aug:198', 'Sep:173', 'Oct:192', 'Nov:219', 'Dec:206', 'Jan:129', 'Feb:234', 'Mar:200']"
+     transform="translate(-19.100392,-117.43969)">
+    <rect
+       id="rect2414"
+       style="fill:#460101;stroke-width:0.36015132"
+       width="36.015133"
+       height="3.6015131"
+       x="28.489649"
+       y="117.43969" />
+    <text
+       id="text2418"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777778px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:start;text-anchor:start;fill:#ffffff;stroke-width:0.36015132;"
+       x="66.305534"
+       y="120.68105">310</text>
+    <rect
+       id="rect2422"
+       style="fill:#980101;stroke-width:0.36015132"
+       width="24.130138"
+       height="3.6015131"
+       x="28.489649"
+       y="122.84196" />
+    <text
+       id="text2426"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777778px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:start;text-anchor:start;fill:#ffffff;stroke-width:0.36015132;"
+       x="54.687752"
+       y="126.08332">210</text>
+    <rect
+       id="rect2428"
+       style="filter:url(#filter)"
+       width="29"
+       height="10"
+       x="68.621346"
+       y="84.040138"
+       transform="matrix(0.36015132,0,0,0.36015132,4.1357325,98.337214)" />
+    <rect
+       id="rect2430"
+       style="fill:#d40000;stroke-width:0.36015132"
+       width="10.444388"
+       height="3.6015131"
+       x="28.489649"
+       y="128.24423" />
+    <text
+       id="text2434"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777778px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:start;text-anchor:start;fill:#ffffff;stroke-width:0.36015132;"
+       x="40.74641"
+       y="131.4856">90</text>
+    <rect
+       id="rect2438"
+       style="fill:#f44800;stroke-width:0.36015132"
+       width="25.570744"
+       height="3.6015131"
+       x="28.489649"
+       y="133.6465" />
+    <text
+       id="text2442"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777778px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:start;text-anchor:start;fill:#ffffff;stroke-width:0.36015132;"
+       x="56.198063"
+       y="136.88786">223</text>
+    <rect
+       id="rect2446"
+       style="fill:#fb8b00;stroke-width:0.36015132"
+       width="22.689533"
+       height="3.6015131"
+       x="28.489649"
+       y="139.04877" />
+    <text
+       id="text2450"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777778px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:start;text-anchor:start;fill:#ffffff;stroke-width:0.36015132;"
+       x="53.293617"
+       y="142.29013">198</text>
+    <rect
+       id="rect2454"
+       style="fill:#eec73e;stroke-width:0.36015132"
+       width="19.808323"
+       height="3.6015131"
+       x="28.489649"
+       y="144.45103" />
+    <text
+       id="text2458"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777778px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:start;text-anchor:start;fill:#ffffff;stroke-width:0.36015132;"
+       x="50.389172"
+       y="147.6924">173</text>
+    <rect
+       id="rect2462"
+       style="fill:#d9bb7a;stroke-width:0.36015132"
+       width="21.969231"
+       height="3.6015131"
+       x="28.489649"
+       y="149.85332" />
+    <text
+       id="text2466"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777778px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:start;text-anchor:start;fill:#ffffff;stroke-width:0.36015132;"
+       x="52.59655"
+       y="153.09468">192</text>
+    <rect
+       id="rect2470"
+       style="fill:#fdd99b;stroke-width:0.36015132"
+       width="25.210592"
+       height="3.6015131"
+       x="28.489649"
+       y="155.25558" />
+    <text
+       id="text2474"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777778px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:start;text-anchor:start;fill:#ffffff;stroke-width:0.36015132;"
+       x="55.733356"
+       y="158.49695">219</text>
+    <rect
+       id="rect2478"
+       style="fill:#460101;stroke-width:0.36015132"
+       width="23.769987"
+       height="3.6015131"
+       x="28.489649"
+       y="160.65785" />
+    <text
+       id="text2482"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777778px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:start;text-anchor:start;fill:#ffffff;stroke-width:0.36015132;"
+       x="54.223042"
+       y="163.89922">206</text>
+    <rect
+       id="rect2484"
+       style="filter:url(#filter)"
+       width="41"
+       height="10"
+       x="68.621346"
+       y="189.04015"
+       transform="matrix(0.36015132,0,0,0.36015132,4.1357325,98.337214)" />
+    <rect
+       id="rect2486"
+       style="fill:#980101;stroke-width:0.36015132"
+       width="14.766204"
+       height="3.6015131"
+       x="28.489649"
+       y="166.06012" />
+    <text
+       id="text2490"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777778px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:start;text-anchor:start;fill:#ffffff;stroke-width:0.36015132;"
+       x="45.277351"
+       y="169.30148">129</text>
+    <rect
+       id="rect2494"
+       style="fill:#d40000;stroke-width:0.36015132"
+       width="27.011349"
+       height="3.6015131"
+       x="28.489649"
+       y="171.46239" />
+    <text
+       id="text2498"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777778px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:start;text-anchor:start;fill:#ffffff;stroke-width:0.36015132;"
+       x="57.476021"
+       y="174.70375">234</text>
+    <rect
+       id="rect2502"
+       style="fill:#f44800;stroke-width:0.36015132"
+       width="23.049685"
+       height="3.6015131"
+       x="28.489649"
+       y="176.86465" />
+    <text
+       id="text2416"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:end;text-anchor:end;fill:#ffffff;stroke-width:0.36015132"
+       x="26.24017"
+       y="119.73611">Apr</text>
+    <text
+       id="text2424"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:end;text-anchor:end;fill:#ffffff;stroke-width:0.36015132"
+       x="26.714996"
+       y="125.19296">May</text>
+    <text
+       id="text2432"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:end;text-anchor:end;fill:#ffffff;stroke-width:0.36015132"
+       x="26.177563"
+       y="130.95299">Jun</text>
+    <text
+       id="text2440"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:end;text-anchor:end;fill:#ffffff;stroke-width:0.36015132"
+       x="25.667688"
+       y="136.49425">Jul</text>
+    <text
+       id="text2448"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:end;text-anchor:end;fill:#ffffff;stroke-width:0.36015132"
+       x="26.461517"
+       y="141.58247">Aug</text>
+    <text
+       id="text2456"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:end;text-anchor:end;fill:#ffffff;stroke-width:0.36015132"
+       x="26.275747"
+       y="147.06087">Sep</text>
+    <text
+       id="text2464"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:end;text-anchor:end;fill:#ffffff;stroke-width:0.36015132"
+       x="26.118134"
+       y="152.81572">Oct</text>
+    <text
+       id="text2472"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:end;text-anchor:end;fill:#ffffff;stroke-width:0.36015132"
+       x="26.429914"
+       y="158.26137">Nov</text>
+    <text
+       id="text2480"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:end;text-anchor:end;fill:#ffffff;stroke-width:0.36015132"
+       x="26.259384"
+       y="163.71996">Dec</text>
+    <text
+       id="text2488"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:end;text-anchor:end;fill:#ffffff;stroke-width:0.36015132"
+       x="26.10177"
+       y="169.18713">Jan</text>
+    <text
+       id="text2496"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:end;text-anchor:end;fill:#ffffff;stroke-width:0.36015132"
+       x="26.160337"
+       y="174.72839">Feb</text>
+    <text
+       id="text2504"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777767px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:end;text-anchor:end;fill:#ffffff;stroke-width:0.36015132"
+       x="26.540159"
+       y="180.10602">Mar</text>
+    <text
+       id="text2506"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52777778px;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:start;text-anchor:start;fill:#ffffff;stroke-width:0.36015132;"
+       x="53.52597"
+       y="180.10602">200</text>
+  </g>
+</svg>

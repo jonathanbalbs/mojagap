@@ -1,0 +1,49 @@
+.card {
+    background: #0b0c21;
+    margin: 15px 0;
+    padding: 12px;
+    border: 0 solid rgba(120, 130, 140, .13);
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .05);
+    font-family: Roboto, sans-serif;
+}
+
+.card-title {
+    border-bottom: 1px solid rgba(246, 147, 28, .125);
+}
+
+.card-title h4 {
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #f6931c;
+}
+
+.card-body {
+    color: white;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.card-body a {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+th,
+td {
+    color: white;
+}
+
+.row {
+    margin: px;
+}
+
+.fa-circle {
+    font-size: 6px;
+}

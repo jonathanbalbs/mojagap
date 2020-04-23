@@ -1,0 +1,235 @@
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-lg-4">
+            <div class="login-content card animated slideInLeft login-custom">
+                <div class="login-form">
+                    <h5 class="text-center text-white mb-3">Register new wallet</h5>
+                    <form [formGroup]="userRegisterFormGroup" *ngIf="showUserForm">
+                        <div class="row text-center mx-0 pt-2">
+                            <div class="col-md-6 pr-0 py-2 bg-info">
+                                <button style="background: transparent; border: none; color: white;" (click)="showUser()">Personal</button>
+                            </div>
+                            <div class="col-md-6 pl-0 py-2 bg-secondary">
+                                <button style="background: transparent; border: none; color: white;" (click)="showCompany()">Business</button>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" [class.is-invalid]="getFullName.invalid && getFullName.touched" class="form-control input-custom mt-3" placeholder="Full name" name="email" formControlName="fullName">
+                            <div class="text-danger" *ngIf="(getFullName.invalid && getFullName.touched) || getFullName.dirty">
+                                <small *ngIf="getFullName.errors?.required">Full name field is required</small>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" [class.is-invalid]="getEmail.invalid && getEmail.touched" class="form-control input-custom" placeholder="Email" name="email" formControlName="email">
+                            <div class="text-danger" *ngIf="(getEmail.invalid && getEmail.touched) || getEmail.dirty">
+                                <small *ngIf="getEmail.errors?.required">Email address is required</small>
+                                <small *ngIf="getEmail.errors?.email">Please enter a valid email</small>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <select name="" id="" class="custom-select input-custom text-info">
+                                  <optgroup label="preffered">
+                                    <option value="+256" selected>+256 <span class="text-small text-small-custom"> Uganda </span></option>
+                                    <option value="+254">+254  <span class="text-small text-small-custom"> Kenya </span></option>
+                                    <option value="+255">+255 <span class="text-small text-small-custom"> Tanzania </span></option>
+                                    <option value="+1">+1 <span class="text-small text-small-custom"> United States </span></option>
+                                    <option value="+44">+44 <span class="text-small text-small-custom"> United Kingdom </span></option>
+                                  </optgroup>
+                                  <optgroup label="All Countries">
+                                    <option *ngFor="let country of countryListAllIsoData" value="{{ country.dial_code }}">{{country.dial_code}} <span class="text-small text-small-custom pl-3">{{country.name}}</span></option>
+                                  </optgroup>
+                            </select>
+                            </div>
+                            <div class="col-7">
+                                <input type="text" [class.is-invalid]="getTel.invalid && getTel.touched" name="phone" minlength="9" class="form-control input-custom" placeholder="754033080" formControlName="tel">
+                                <div class="text-danger" *ngIf="(getTel.invalid && getTel.touched) || getTel.dirty">
+                                    <small *ngIf="getTel.errors?.required">Phone number is required</small>
+                                    <small *ngIf="getTel.errors?.pattern">Must be atleast 9 digits long, no characters</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="text" class="form-control input-custom" placeholder="Date of Birth" disabled>
+                            </div>
+                            <div class="col">
+                                <input type="date" [class.is-invalid]="getBirthDate.invalid && getBirthDate.touched" class="bs-datepicker text-info text-center shadow-none form-control input-custom" name="birth-date" formControlName="birthDate">
+                                <div class="text-danger" *ngIf="(getBirthDate.invalid && getBirthDate.touched) || getBirthDate.dirty">
+                                    <small *ngIf="getBirthDate.errors?.required">Birth date is required</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control input-custom" name="identity" placeholder="Identity Card Number" formControlName="identity">
+                            <div class="text-danger" *ngIf="(getIdentity.invalid && getIdentity.touched) || getIdentity.dirty">
+                                <small *ngIf="getIdentity.errors?.required">Identiy Card number is required</small>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control input-custom" name="address" placeholder="Billing address" formControlName="address">
+                            <div class="text-danger" *ngIf="(getAddress.invalid && getAddress.touched) || getAddress.dirty">
+                                <small *ngIf="getAddress.errors?.required">Billing Address field is required</small>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="password" [class.is-invalid]="getPassword.invalid && getPassword.touched" class="form-control input-custom" placeholder="Password" name="password" formControlName="password">
+                                <div class="text-danger" *ngIf="(getPassword.invalid && getPassword.touched) || getPassword.dirty">
+                                    <small *ngIf="getPassword.errors?.required">Password is required</small>
+                                    <small *ngIf="getPassword.errors?.pattern">Password must be atleast 6 characters long</small>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <input type="password" [class.is-invalid]="getPasswordA.invalid && getPasswordA.touched" (keyUp)="onPasswordAKeyUp($event)" class="form-control input-custom" placeholder="Confirm password" name="passworda" formControlName="passwordA">
+                                <div class="text-danger" *ngIf="(getPasswordA.invalid && getPasswordA.touched) || getPasswordA.dirty">
+                                    <small *ngIf="getPasswordA.errors?.required">Password is required</small>
+                                    <small *ngIf="getPasswordA.errors?.pattern">Password must be atleast 6 characters long</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkbox">
+                            <label for="terms"><input id="terms" type="checkbox" [class.is-invalid]="getAddress.invalid && getAddress.touched" class="custom-checkbox my-1" placeholder="Password" name="password" formControlName="terms">
+                              By registering, you agree to the Terms.
+                            </label>
+                            <div class="text-danger" *ngIf="(getTerms.invalid && getTerms.touched) || getTerms.dirty">
+                                <small *ngIf="getTerms.errors?.required">You must agree to the terms and conditions</small>
+                            </div>
+                        </div>
+                        <br>
+                        <input type="submit" class="btn btn-block btn-primary btn-flat" value="Register">
+                        <div class="div-hr text-muted">
+                            <span class="or-seperator">or</span>
+                        </div>
+                        <button class="btn btn-block btn-danger btn-flat"><i class="fab fa-google text-white pr-3"></i> Register with google</button>
+                    </form>
+                    <form [formGroup]=companyRegisterFormGroup *ngIf="showCompanyForm">
+                        <div class="row text-center mx-0 pt-2">
+                            <div class="col-md-6 pr-0 py-2 bg-secondary">
+                                <button style="background: transparent; border: none; color: white;" (click)="showUser()">Personal</button>
+                            </div>
+                            <div class="col-md-6 pl-0 py-2 bg-info">
+                                <button style="background: transparent; border: none; color: white;" (click)="showCompany()">Business</button>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" [class.is-invalid]="companyName.invalid && companyName.touched" class="form-control input-custom mt-3" placeholder="Company name" name="email" formControlName="getCompanyName">
+                            <div class="text-danger" *ngIf="(companyName.invalid && companyName.touched) || companyName.dirty">
+                                <small *ngIf="companyName.errors?.required">Company name is required</small>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" [class.is-invalid]="companyEmail.invalid && companyEmail.touched" class="form-control input-custom" placeholder="Email" name="email" formControlName="getCompanyEmail">
+                            <div class="text-danger" *ngIf="(companyEmail.invalid && companyEmail.touched) || companyEmail.dirty">
+                                <small *ngIf="companyEmail.errors?.required">Email address is required</small>
+                                <small *ngIf="companyEmail.errors?.email">Please enter a valid email</small>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" [class.is-invalid]="incorporationNumber.invalid && incorporationNumber.touched" class="form-control input-custom" placeholder="Incorporation number" name="reg-number" formControlName="getIncorporationNumber">
+                            <div class="text-danger" *ngIf="(incorporationNumber.invalid && incorporationNumber.touched) || incorporationNumber.dirty">
+                                <small *ngIf="incorporationNumber.errors?.required">Company Incorporation number is required</small>
+                                <small *ngIf="incorporationNumber.errors?.pattern">Incorporation number must be atleast 6 digits long and without letters</small>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="text" class="form-control input-custom" placeholder="Incorporation date" disabled>
+                            </div>
+                            <div class="col">
+                                <input type="date" [class.is-invalid]="incorporationDate.invalid && incorporationDate.touched" class="bs-datepicker text-center text-info shadow-none form-control input-custom" name="incorporation-date" formControlName="getIncorporationDate">
+                                <div class="text-danger" *ngIf="(incorporationDate.invalid && incorporationDate.touched) || incorporationDate.dirty">
+                                    <small *ngIf="incorporationDate.errors?.required">Incorporation date is required</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="text" class="form-control input-custom" placeholder="Business type" disabled>
+                            </div>
+                            <div class="col">
+                                <select name="" id="" class="custom-select input-custom text-info text-center">
+                                  <option value="ict">ICT/Computing</option>
+                                  <option value="trade">Trade</option>
+                                  <option value="education">Education</option>
+                                  <option value="hospitality">Hospitality</option>
+                                  <option value="agriculture">Agriclture</option>
+                                  <option value="NGO">NGO</option>
+                                  <option value="construction">Engineering</option>
+                                  <option value="medical">Medical</option>
+                                  <option value="law">Law</option>
+                                  <option value="government">Governent Organ</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <select name="" id="" class="custom-select input-custom text-info text-info">
+                                  <optgroup label="preffered">
+                                    <option value="+256" selected>+256 <span class="text-small text-small-custom"> Uganda </span></option>
+                                    <option value="+254">+254  <span class="text-small text-small-custom"> Kenya </span></option>
+                                    <option value="+255">+255 <span class="text-small text-small-custom"> Tanzania </span></option>
+                                    <option value="+1">+1 <span class="text-small text-small-custom"> United States </span></option>
+                                    <option value="+44">+44 <span class="text-small text-small-custom"> United Kingdom </span></option>
+                                  </optgroup>
+                                  <optgroup label="All Countries">
+                                    <option *ngFor="let country of countryListAllIsoData" value="{{ country.dial_code }}">{{country.dial_code}} <span class="text-small text-small-custom pl-3">{{country.name}}</span></option>
+                                  </optgroup>
+                              </select>
+                            </div>
+                            <div class="col-7">
+                                <input type="tel" [class.is-invalid]="companyPhone.invalid && companyPhone.touched" class="form-control input-custom" placeholder="754 033 080" name="phone" formControlName="getCompanyPhone">
+                                <div class="text-danger" *ngIf="(companyPhone.invalid && companyPhone.touched) || companyPhone.dirty">
+                                    <small *ngIf="companyPhone.errors?.required">Phone number is required</small>
+                                    <small *ngIf="companyPhone.errors?.minLength">Please enter a valid phone number</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" [class.is-invalid]="companyAddress.invalid && companyAddress.touched" class="form-control input-custom" name="address" placeholder="Billing address" formControlName="getCompanyAddress">
+                            <div class="text-danger" *ngIf="(companyAddress.invalid && companyAddress.touched) || companyAddress.dirty">
+                                <small *ngIf="companyAddress.errors?.required">Address is required</small>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="password" [class.is-invalid]="companyPassword.invalid && companyPassword.touched" class="form-control input-custom" placeholder="Password" name="password" formControlName="getCompanyPassword">
+                                <div class="text-danger" *ngIf="(companyPassword.invalid && companyPassword.touched) || companyPassword.dirty">
+                                    <small *ngIf="companyPassword.errors?.required">Password is required</small>
+                                    <small *ngIf="companyPassword.errors?.pattern">Password must be atleast 6 characters long</small>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <input type="password" [class.is-invalid]="companyPassword2.invalid && companyPassword2.touched" class="form-control input-custom" placeholder="Confirm password" name="passwordB" formControlName="getCompanyPassword2">
+                                <div class="text-danger" *ngIf="(companyPassword2.invalid && companyPassword2.touched) || companyPassword2.dirty">
+                                    <small *ngIf="companyPassword2.errors?.required">Password is required</small>
+                                    <small *ngIf="companyPassword2.errors?.pattern">Password must be atleast 6 characters long</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="custom-checkbox">
+                            <label for="terms" class="mt-4">
+                              <input id="terms" type="checkbox" [class.is-invalid]="companyTerms.invalid && companyTerms.touched" class="custom-checkbox" placeholder="Password" name="password" formControlName="getCompanyTerms">
+                              By registering, you agree to the Terms.
+                            </label>
+                            <div class="text-danger" *ngIf="(companyTerms.invalid && companyTerms.touched) || companyTerms.dirty">
+                                <small *ngIf="companyTerms.errors?.required">You must agree to the terms and conditions</small>
+                            </div>
+                        </div>
+                        <br>
+                        <input type="submit" class="btn btn-block btn-primary btn-flat" value="Register">
+                        <div class="div-hr text-muted">
+                            <span class="or-seperator">or</span>
+                        </div>
+                        <button class="btn btn-block btn-danger btn-flat"><i class="fab fa-google text-white pr-3"></i> Register with google</button>
+
+                    </form>
+                    <div class="register-link text-center mt-3 text-small">
+                        <p>Already have a Wallet ? <a routerLink="/login"> Login</a></p>
+                        <p>Forgot Password? <a href="" routerLink="/forgot-password">Reset</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

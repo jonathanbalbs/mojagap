@@ -1,0 +1,55 @@
+<section class="page-section text-white" id="contact">
+    <div class="container">
+        <h2 class="text-center mt-0">Get in Touch</h2>
+        <hr class="divider pb-3">
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="text-center">Send a Message</h3>
+                <div class="col-md-12 mr-auto text-left">
+                    <form [formGroup]="contactFormGroup">
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="text" [class.is-invalid]="getName().invalid && getName().touched" placeholder="Full Name" class="form-control" formControlName="name">
+                                <div class="" *ngIf="(getName().invalid && getName().touched) || getName().dirty">
+                                    <small class="text-danger" *ngIf="getName().errors?.required">Name is required</small>
+                                    <small class="text-danger" *ngIf="getName().errors?.pattern">Provide a valid name</small>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <input type="email" [class.is-invalid]="getEmail().invalid && getEmail().touched" name="email" placeholder="Email" class="form-control" formControlName="email">
+                                <div class="" *ngIf="(getEmail().invalid && getEmail().touched) || getEmail().dirty">
+                                    <small class="text-danger" *ngIf="getEmail().errors?.required">Email address is required</small>
+                                    <small class="text-danger" *ngIf="getEmail().errors?.pattern">Provide a valid email address</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <textarea name="message" [class.is-invalid]="getMessage().invalid && getMessage().touched" placeholder="Message" class="form-control" formControlName="message"></textarea>
+                                <div class="" *ngIf="(getMessage().invalid && getMessage().touched) || getMessage().dirty">
+                                    <small class="text-danger" *ngIf="getMessage().errors?.required">Message is required</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <input type="submit" class="btn btn-primary mx-auto" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <div class="text-center my-4 div-custom">
+                    <div class="mb-3">
+                        <i class="fas fa-map-marker-alt fa-3x mb-1 "></i><br><span class="p"> Plot 1026/28, Mawanda Road <br> P.O Box 8908 Kampala, Uganda</span>
+                    </div>
+                    <div class="my-3">
+                        <i class="fas fa-phone fa-3x mb-1  "></i><br><span class="p">+256 772 418 560</span>
+                    </div>
+                    <div class="mt-3">
+                        <i class="fas fa-envelope fa-3x mb-1 "></i> <br><span class="p"> info@mojagap.io</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,81 @@
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header card-header-rose">
+                <h4 class="card-title">Change Admin Credentials</h4>
+            </div>
+            <div class="card-body">
+                <p class="text-white text-small">Enter details of user below</p>
+                <form>
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="password" class="form-control" placeholder="Old Password">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="New User Name ">
+                        </div>
+                    </div>
+                    <div class="form-row ">
+                        <div class="col ">
+                            <input type="password " class="form-control " placeholder="New password ">
+                        </div>
+                        <div class="col ">
+                            <input type="password " class="form-control " placeholder="Retype new password ">
+                        </div>
+                    </div>
+                    <div class="text-center mt-3 ">
+                        <a href="# " class="btn btn-outline-info ">Change</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 ">
+        <div class="card" *ngIf="showDataCard">
+            <div class="text-center">
+                <button (click)="showData()" class="text-success btn-active">View Details</button>
+                <button (click)="showEdit()" class="text-success">Change Details</button>
+            </div>
+            <div class="card-body ">
+                <p class="text-white text-small ">Enter email below to view</p>
+                <form>
+                    <div class="form-row ">
+                        <div class="col ">
+                            <input type="email" class="form-control " placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3 ">
+                        <input type="submit" value="View" class="btn btn-outline-info ">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="card" *ngIf="showEditCard">
+            <div class="text-center">
+                <button (click)="showData()" class="text-success">Change Details</button>
+                <button (click)="showEdit()" class="text-success  btn-active">Change Details</button>
+            </div>
+            <div class="card-body ">
+                <p class="text-white text-small ">Enter email below to change</p>
+                <form>
+                    <div class="form-row ">
+                        <div class="col ">
+                            <input type="email" class="form-control " placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="form-row ">
+                        <div class="col ">
+                            <input type="password" class="form-control " placeholder="New Password" required>
+                        </div>
+                        <div class="col ">
+                            <input type="password" class="form-control " placeholder="Retype New Password" required>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3 ">
+                        <input type="submit" value="View" class="btn btn-outline-info ">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

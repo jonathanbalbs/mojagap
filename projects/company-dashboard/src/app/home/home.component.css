@@ -1,0 +1,73 @@
+.card {
+    background: #0b0c21;
+    margin: 15px 0;
+    padding: 12px;
+    border: 0 solid rgba(120, 130, 140, .13);
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .05);
+}
+
+.stat-widget-two {
+    text-align: center;
+}
+
+.stat-text {
+    font-size: 17px;
+    margin-bottom: 5px;
+    color: #abafb3;
+}
+
+.row-custom h6 {
+    line-height: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+.row-custom p {
+    color: #abafb3;
+    font-size: .9rem;
+}
+
+.stat-digit {
+    font-size: 30px;
+    font-weight: 700;
+    color: #4caf50;
+}
+
+.progress {
+    height: 8px;
+    box-shadow: none;
+}
+
+.progress-bar-success {
+    background-color: #4caf50;
+    width: 85%;
+    box-shadow: none;
+}
+
+.card-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.card-title h4 {
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+}
+
+.img-custom {
+    max-width: 85%;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: transparent;
+}
+
+.row-custom {
+    margin-top: 70px;
+}

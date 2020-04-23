@@ -1,0 +1,122 @@
+.page-wrapper {
+    margin-left: 240px;
+    background-color: #070713;
+    padding-top: 60px;
+}
+
+.page-titles {
+    background: #0b0c21;
+    margin: 0 0 30px;
+    padding: 15px 10px;
+    position: relative;
+    z-index: 10;
+    border-top: 1px solid #222;
+    font-weight: 500;
+    border-top: 0;
+}
+
+.breadcrumb {
+    padding: 0;
+    background: 0 0;
+    font-size: 14px;
+    float: right;
+    margin-bottom: 0px;
+}
+
+.container-fluid {
+    padding: 0 30px 25px;
+    background-color: #070713;
+}
+
+.card {
+    background: #0b0c21;
+    margin: 15px 0;
+    padding: 12px;
+    border: 0 solid rgba(120, 130, 140, .13);
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .05);
+}
+
+.stat-widget-two {
+    text-align: center;
+}
+
+.stat-text {
+    font-size: 17px;
+    margin-bottom: 5px;
+    color: #abafb3;
+}
+
+.row-custom h6 {
+    line-height: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+.row-custom p {
+    color: #abafb3;
+    font-size: .9rem;
+}
+
+.stat-digit {
+    font-size: 40px;
+    font-weight: 700;
+    color: #4caf50;
+}
+
+.progress {
+    height: 8px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    box-shadow: none;
+}
+
+.progress-bar-success {
+    background-color: #4caf50;
+    width: 85%;
+    box-shadow: none;
+}
+
+.card-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.card-title h4 {
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+}
+
+.form-control {
+    height: 46px;
+    box-shadow: none;
+    border: 1px solid rgba(120, 130, 140, .13);
+    background: #070713;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 14px;
+    width: 100%;
+    font-family: Arial, FontAwesome;
+}
+
+.card-3 {
+    padding: 0%;
+}
+
+.tr-custom th {
+    border-bottom: none;
+    border-top: 1px solid rgba(120, 130, 140, .13);
+    color: #fff;
+}
+
+.tr-custom td {
+    border-bottom: none;
+    border-top: 1px solid rgba(120, 130, 140, .13);
+    color: #888;
+}

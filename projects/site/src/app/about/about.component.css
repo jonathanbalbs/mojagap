@@ -1,0 +1,31 @@
+h2 {
+    color: white;
+}
+
+.h1-custom {
+    color: #000;
+}
+
+.hr-border {
+    border-color: #000;
+}
+
+.img-about {
+    max-height: 350px;
+}
+
+.img-partner {
+    max-height: 40%;
+}
+
+.text-custom {
+    color: #ddd;
+}
+
+div.text-custom h4 {
+    color: white;
+}
+
+p {
+    font-size: 15px;
+}

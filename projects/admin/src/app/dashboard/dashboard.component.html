@@ -1,0 +1,322 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card card-chart" *ngIf="dailySales">
+                <div class="tabs-custom text-white">
+                    <button class="tabs-custom-child" (click)="showDailySales()">Daily</button>&nbsp;
+                    <button (click)="showWeeklySales()">Weekly</button>&nbsp;
+                    <button (click)="showMonthlySales()">Monthly</button>
+                </div>
+                <div class="card-header">
+                    <div class="ct-chart text-center" id="dailySalesChart">
+                        <img src="../../assets/daily-sales.svg" class="img-fluid img-daily-sales" alt="daily-sales">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title text-white">Card Sales</h4>
+                    <p class="card-category">UGX1500 Cards dominating with a higher roller difference of 139</p>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="fa fa-clock-o"></i> Updated 30 second(s) ago
+                    </div>
+                </div>
+            </div>
+            <div class="card card-chart" *ngIf="weeklySales">
+                <div class="tabs-custom text-white">
+                    <button (click)="showDailySales()">Daily</button>&nbsp;
+                    <button class="tabs-custom-child" (click)="showWeeklySales()">Weekly</button>&nbsp;
+                    <button (click)="showMonthlySales()">Monthly</button>
+                </div>
+                <div class="card-header">
+                    <div class="ct-chart" id="websiteViewsChart">
+                        <img src="../../assets/weekly-sales.svg" alt="subscriptions" class="img-fluid img-weekly-sales">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title text-white">Card Sales</h4>
+                    <p class="card-category">UGX2500 Cards Dominationg with an average of 332 Cards</p>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="fa fa-clock-o"></i> Updated 30 second(s) ago
+                    </div>
+                </div>
+            </div>
+            <div class="card card-chart" *ngIf="monthlySales">
+                <div class="tabs-custom tabs-custom-child text-white">
+                    <button (click)="showDailySales()">Daily</button>&nbsp;
+                    <button (click)="showWeeklySales()">Weekly</button>&nbsp;
+                    <button class="tabs-custom-child" (click)="showMonthlySales()">Monthly</button>
+                </div>
+                <div class="card-header">
+                    <div class="ct-chart" id="completedTasksChart">
+                        <img src="../../assets/monthly-sales2.svg" alt="" class="img-fluid img-custom">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title text-white">Card Sales</h4>
+                    <p class="card-category">September domninating wuith 1963 cards in the last 12 months</p>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="fa fa-clock-o"></i> Updated 30 second(s) ago
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-chart" *ngIf="dailySubscribers">
+                <div class="tabs-custom text-white">
+                    <button class="tabs-custom-child" (click)="showDailySubscribers()">Daily</button>&nbsp;
+                    <button (click)="showWeeklySubscribers()">Weekly</button>&nbsp;
+                    <button (click)="showMonthlySubscribers()">Monthly</button>
+                </div>
+                <div class="card-header">
+                    <div class="ct-chart text-center" id="dailySalesChart">
+                        <img src="../../assets/subscribers.svg" class="img-fluid img-daily-sales" alt="daily-sales">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title text-white">Subscribers</h4>
+                    <p class="card-category">An increase of 139 total subscribers from last week</p>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="fa fa-clock-o"></i> Updated 1 Day(s) ago
+                    </div>
+                </div>
+            </div>
+            <div class="card card-chart" *ngIf="weeklySubscribers">
+                <div class="tabs-custom text-white">
+                    <button (click)="showDailySubscribers()">Daily</button>&nbsp;
+                    <button class="tabs-custom-child" (click)="showWeeklySubscribers()">Weekly</button>&nbsp;
+                    <button (click)="showMonthlySubscribers()">Monthly</button>
+                </div>
+                <div class="card-header">
+                    <div class="ct-chart text-center" id="dailySalesChart">
+                        <img src="../../assets/subscribers.svg" class="img-fluid img-daily-sales" alt="daily-sales">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title text-white">Subscribers</h4>
+                    <p class="card-category">An increase of 139 total subscribers from last week</p>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="fa fa-clock-o"></i> Updated 1 Day(s) ago
+                    </div>
+                </div>
+            </div>
+            <div class="card card-chart" *ngIf="monthlySubscribers">
+                <div class="tabs-custom text-white">
+                    <button (click)="showDailySubscribers()">Daily</button>&nbsp;
+                    <button (click)="showWeeklySubscribers()">Weekly</button>&nbsp;
+                    <button class="tabs-custom-child" (click)="showMonthlySubscribers()">Monthly</button>
+                </div>
+                <div class="card-header">
+                    <div class="ct-chart text-center" id="dailySalesChart">
+                        <img src="../../assets/monthly-subscriptions.svg" class="img-fluid img-daily-sales" alt="daily-sales">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title text-white">Subscribers</h4>
+                    <p class="card-category">An increase of 139 total subscribers from last week</p>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="fa fa-clock-o"></i> Updated 1 Day(s) ago
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-chart" *ngIf="dailyTransactions">
+                <div class="tabs-custom text-white">
+                    <button class="tabs-custom-child" (click)="showDailyTransactions()">Daily</button>&nbsp;
+                    <button (click)="showWeeklyTransactions()">Weekly</button>&nbsp;
+                    <button (click)="showMonthlyTransactions()">Monthly</button>
+                </div>
+                <div class="card-header">
+                    <div class="ct-chart text-center" id="dailySalesChart">
+                        <img src="../../assets/daily-transactions.svg" class="img-fluid img-daily-sales" alt="daily-sales">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title text-white">Daily Transactions</h4>
+                    <p class="card-category">UGX1500 Cards dominating with a higher roller difference of 139</p>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="fa fa-clock-o"></i> updated 30 seconds ago
+                    </div>
+                </div>
+            </div>
+            <div class="card card-chart" *ngIf="weeklyTransactions">
+                <div class="tabs-custom text-white">
+                    <button (click)="showDailyTransactions()">Daily</button>&nbsp;
+                    <button class="tabs-custom-child" (click)="showWeeklyTransactions()">Weekly</button>&nbsp;
+                    <button (click)="showMonthlyTransactions()">Monthly</button>
+                </div>
+                <div class="card-header">
+                    <div class="ct-chart" id="websiteViewsChart">
+                        <img src="../../assets/weekly-transactions.svg" alt="subscriptions" class="img-fluid img-weekly-sales">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title text-white">Weekly Transactions</h4>
+                    <p class="card-category">UGX2500 Cards Dominationg with an average of 332 Cards</p>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="fa fa-clock-o"></i> Updated 1 day(s) ago
+                    </div>
+                </div>
+            </div>
+            <div class="card card-chart" *ngIf="monthlyTransactions">
+                <div class="tabs-custom tabs-custom-child text-white">
+                    <button (click)="showDailyTransactions()">Daily</button>&nbsp;
+                    <button (click)="showWeeklyTransactions()">Weekly</button>&nbsp;
+                    <button class="tabs-custom-child" (click)="showMonthlyTransactions()">Monthly</button>
+                </div>
+                <div class="card-header">
+                    <div class="ct-chart" id="completedTasksChart">
+                        <img src="../../assets/monthly-transactions.svg" alt="" class="img-fluid img-custom">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title text-white">Monthly Transactions</h4>
+                    <p class="card-category">September domninating wuith 1963 cards in the last 12 months</p>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="fa fa-clock-o"></i> Updated 16 day(s) ago
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card card-stats">
+                <div class="card-header card-header-success card-header-icon">
+                    <div class="card-icon">
+                        <i class="fa fa-dollar"></i>
+                    </div>
+                    <p class="card-category">Total Revenue</p>
+                    <h3 class="card-title text-white">$144,382</h3>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="fa fa-clock-o"></i> Collected in the last 24 hours
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-stats">
+                <div class="card-header card-header-success card-header-icon">
+                    <div class="card-icon">
+                        <i class="fa fa-dollar"></i>
+                    </div>
+                    <p class="card-category">Company Revenue</p>
+                    <h3 class="card-title text-white">$129,342</h3>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="fa fa-clock-o"></i> Collected in the last 24 hours
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-stats">
+                <div class="card-header card-header-success card-header-icon">
+                    <div class="card-icon">
+                        <i class="fa fa-dollar"></i>
+                    </div>
+                    <p class="card-category">Individual Users Revenue</p>
+                    <h3 class="card-title text-white">$15,340</h3>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="fa fa-clock-o"></i> Collected in the last 24 hours
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="card">
+            <div class="card-header card-header-success">
+                <h4 class="card-title">New Users</h4>
+                <p class="card-category"><i class="fa fa-clock-o"></i> Summary of users that have registered in the last 24 hours</p>
+            </div>
+            <div class="card-body table-responsive">
+                <table class="table table-hover text-white">
+                    <thead>
+                        <tr class="font-weight-bold">
+                            <th></th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Card number</th>
+                            <th>Card type</th>
+                            <th>Card Balance</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Balabyeki Jonathan</td>
+                            <td>Jonathanesh50@gmail.com</td>
+                            <td>4132 6234 9756 2321</td>
+                            <td>2</td>
+                            <td>UGX 23000.00</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>John Doe</td>
+                            <td>email@example.com</td>
+                            <td>4132 6234 9756 2321</td>
+                            <td>1</td>
+                            <td>UGX 19000.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="card">
+            <div class="card-header card-header-warning">
+                <h4 class="card-title">New Companies</h4>
+                <p class="card-category"><i class="material-icons">access_time</i> Summary of companies that have registered in the last 24 hours</p>
+            </div>
+            <div class="card-body table-responsive">
+                <table class="table table-hover text-white">
+                    <thead>
+                        <tr class="font-weight-bold">
+                            <th></th>
+                            <th>Company name</th>
+                            <th>Email</th>
+                            <th>Card number</th>
+                            <th>Card type</th>
+                            <th>Card Balance</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>My company name</td>
+                            <td>mail@my-domain.com</td>
+                            <td>4132 6234 9756 2321</td>
+                            <td>2</td>
+                            <td>UGX 47000000.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  -->

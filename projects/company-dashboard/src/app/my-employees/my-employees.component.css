@@ -1,0 +1,74 @@
+.card {
+    background: #0b0c21;
+    margin: 15px 0;
+    padding: 12px;
+    border: 0 solid rgba(120, 130, 140, .13);
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .05);
+}
+
+.card-title {
+    border-bottom: 1px solid rgba(246, 147, 28, .125);
+}
+
+.card-title h4 {
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #f6931c;
+}
+
+.main {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+th,
+td {
+    color: white;
+    font-size: 11px;
+}
+
+.form-control {
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid #f6931c;
+    color: white;
+    border-radius: 0px;
+}
+
+.input-group {
+    border: 0px;
+    border-radius: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.btn-secondary {
+    background: none;
+    border: none;
+    color: white;
+}
+
+.fa-circle {
+    font-size: 7px;
+}
