@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
-import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-login',
@@ -8,28 +7,10 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
+
+  //form display controller code
   showUserForm = true;
   showCompanyForm =false;
-
-  apiUrl = 'http://127.0.0.1:8000/api/auth/users';
-
-  public form = { email: null, password: null};
-
-  constructor(private httpClient: HttpClient) {}
-
-  submitUserForm() {
-    this.httpClient.post(this.apiUrl, this.form).subscribe(
-      data => console.log(data),
-      error => console.log(error)
-    )
-  }
-  submitCompanyForm() {
-
-  }
-
-
-  ngOnInit() {
-  }
 
   showUser() {
     this.showUserForm = true;
@@ -39,6 +20,54 @@ export class LoginComponent implements OnInit {
     this.showUserForm = false;
     this.showCompanyForm = true;
   }
+
+//checbox / terms agreemnt verifcation
+  userTermsChecked = false;
+  companyTermsChecked = false;
+
+  userChecked (event) {
+    if (event.target.checked) {
+      this.userTermsChecked = true
+    }
+  }
+  companyChecked (event) {
+    this.companyTermsChecked = true
+  }
+
+  //submit buttons control code
+  public userForm = { email: '', password: '', stayActive: false };
+  public companyForm = { email: '', password: '', stayActive: false };
+  emailError = '';
+  passwordError = '';
+  userFormErrors = false;
+
+  showDefault() {
+    this.userFormErrors = false;
+  }
+
+  validateUserForm() {
+    if (this.userForm.email === ''){
+      this.emailError = 'You must provide an email to continue'
+    }
+    if (this.userForm.password === '') {
+      this.passwordError = 'You must provide a password to continue'
+    }
+    if (this.userForm.email === '' || this.userForm.password === '') {
+      this.userFormErrors =true;
+    }
+
+  }
+  valiateCompanyForm() {
+  }
+
+
+
+
+  constructor() {}
+
+  ngOnInit() {
+  }
+
 
   loginFormGroup = new FormGroup({
     email: new FormControl('', Validators.compose([Validators.required, Validators.pattern("^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$")])),

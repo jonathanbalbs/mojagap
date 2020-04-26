@@ -1,10 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { HttpClientModule }    from '@angular/common/http';
-
+import { OktaAuthModule, OktaCallbackComponent } from '@okta/okta-angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -22,6 +22,15 @@ import { ProductsComponent } from './products/products.component';
 import { TutorialsComponent } from './tutorials/tutorials.component';
 import { WhyUsComponent } from './why-us/why-us.component';
 import { RegisterComponent } from './register/register.component';
+import { AccountComponent } from './dashboard/account/account.component';
+import { CardsComponent } from './dashboard/cards/cards.component';
+import { SettingsComponent } from './dashboard/settings/settings.component';
+import { SidebarComponent } from './dashboard/sidebar/sidebar.component';
+import { TransactComponent } from './dashboard/transact/transact.component';
+import { TransationsComponent } from './dashboard/transations/transations.component';
+import { WrapperComponent } from './dashboard/wrapper/wrapper.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { DashboardHomeComponent } from './dashboard/dashboard-home/dashboard-home.component';
 
 
 const routes: Routes = [
@@ -34,6 +43,12 @@ const routes: Routes = [
   { path: 'forgot-password', component: ForgotPasswordComponent },
   { path: '**', component: Page404Component }
 ];
+
+const oktaConfig = {
+  issuer: 'https://dev-406179.okta.com',
+  redirectUri: 'http://localhost:4200/implicit/callback',
+  clientId: '0oa24rrsy0EPl7jSW4x6'
+};
 
 @NgModule({
   declarations: [
@@ -52,6 +67,15 @@ const routes: Routes = [
     TutorialsComponent,
     WhyUsComponent,
     RegisterComponent,
+    AccountComponent,
+    CardsComponent,
+    SettingsComponent,
+    SidebarComponent,
+    TransactComponent,
+    TransationsComponent,
+    WrapperComponent,
+    DashboardComponent,
+    DashboardHomeComponent,
   ],
   imports: [
     RouterModule.forRoot(routes, { enableTracing: true }),
@@ -60,7 +84,7 @@ const routes: Routes = [
     FormsModule,
     ReactiveFormsModule,
     BsDropdownModule.forRoot(),
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

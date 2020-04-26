@@ -7,15 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  //hide/show header
-  isWebsite: boolean = true;
-
-
   constructor() { }
 
   ngOnInit() {
   }
-
-
 
 }

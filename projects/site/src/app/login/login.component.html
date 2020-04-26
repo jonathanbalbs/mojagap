@@ -1,10 +1,13 @@
+<!-- Navigation -->
+<app-header></app-header>
+
 <div class="container-fluid">
     <div class="row justify-content-center">
         <div class="col-lg-4">
             <div class="login-content card animated slideInLeft login-custom">
                 <div class="login-form">
                     <h5 class="text-center text-white mb-3">Login into your wallet</h5>
-                    <form [formGroup]="loginFormGroup" *ngIf="showUserForm" (ngSubmit)="submitUserForm()">
+                    <form [formGroup]="loginFormGroup" *ngIf="showUserForm" (ngSubmit)="validateUserForm()">
                         <div class="row text-center mx-0 pt-2">
                             <div class="col-md-6 pr-0 py-2 bg-info">
                                 <button style="background: transparent; border: none; color: white;" (click)="showUser()">Personal</button>
@@ -14,20 +17,23 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <input type="email" [class.is-invalid]="getEmail.invalid && getEmail.touched" class="form-control input-custom" placeholder="Email" name="email" formControlName="email">
+                            <input type="email" [class.is-invalid]="getEmail.invalid && getEmail.touched" (focus)="showDefault()" class="form-control input-custom" placeholder="Email" name="email" formControlName="email" [(ngModel)]="userForm.email">
                             <div class="text-danger" *ngIf="(getEmail.invalid && getEmail.touched) || getEmail.dirty">
                                 <small *ngIf="getEmail.errors?.required">Email address is required</small>
                                 <small *ngIf="getEmail.errors?.pattern">Please enter a valid email</small>
                             </div>
+                            <small class="text-danger text-sm" *ngIf="userFormErrors">{{ emailError }}</small>
                         </div>
                         <div class="form-group">
-                            <input type="password" [class.is-invalid]="getPassword.invalid && getPassword.touched" class="form-control input-custom" placeholder="Password" name="password" formControlName="password">
+                            <input type="password" [class.is-invalid]="getPassword.invalid && getPassword.touched" (focus)="showDefault()" class="form-control input-custom" placeholder="Password" name="password" formControlName="password" [(ngModel)]="userForm.password">
                             <div class="text-danger" *ngIf="(getPassword.invalid && getPassword.touched) || getPassword.dirty">
                                 <small *ngIf="getPassword.errors?.required">Password is required</small>
+                                <small *ngIf="userFormErrors">{{ passwordError }}</small>
                             </div>
+                            <small class="text-danger text-sm" *ngIf="userFormErrors">{{ passwordError }}</small>
                         </div>
                         <div class="checkbox">
-                            <label><input type="checkbox" required> Keep me signed in.</label>
+                            <label><input type="checkbox" required (change)="userChecked($event)"> Keep me signed in.</label>
                         </div>
                         <br>
                         <input type="submit" class="btn btn-block btn-primary btn-flat m-b-30 m-t-30" value="SIGN IN">
@@ -36,7 +42,7 @@
                         </div>
                         <button class="btn btn-block btn-danger btn-flat"><i class="fab fa-google text-white pr-3"></i> Sign in with google</button>
                     </form>
-                    <form [formGroup]="loginFormGroup2" *ngIf="showCompanyForm" (ngSubmit)="submitCompanyForm()">
+                    <form [formGroup]="loginFormGroup2" *ngIf="showCompanyForm" (ngSubmit)="validateCompanyForm()">
                         <div class="row text-center mx-0 pt-2">
                             <div class="col-md-6 pr-0 py-2 bg-secondary">
                                 <button style="background: transparent; border: none; color: white;" (click)="showUser()">Personal</button>
@@ -46,20 +52,20 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control input-custom" [class.is-invalid]="getEmail2.invalid && getEmail2.touched" placeholder="Company email" name="email" formControlName="email2">
+                            <input type="email" class="form-control input-custom" [class.is-invalid]="getEmail2.invalid && getEmail2.touched" placeholder="Company email" name="email" formControlName="email2" [(ngModel)]="companyForm.email">
                             <div class="text-danger" *ngIf="(getEmail2.invalid && getEmail2.touched) || getEmail2.dirty">
                                 <small *ngIf="getEmail2.errors?.required">Email address is required</small>
                                 <small *ngIf="getEmail2.errors?.pattern">Please enter a valid email</small>
                             </div>
                         </div>
                         <div class="form-group">
-                            <input type="password" class="form-control input-custom" [class.is-invalid]="getPassword2.invalid && getPassword2.touched" placeholder="Password" name="password" formControlName="password2">
+                            <input type="password" class="form-control input-custom" [class.is-invalid]="getPassword2.invalid && getPassword2.touched" placeholder="Password" name="password" formControlName="password2" [(ngModel)]="companyForm.password">
                             <div class="text-danger" *ngIf="(getPassword2.invalid && getPassword2.touched) || getPassword2.dirty">
                                 <small *ngIf="getPassword2.errors?.required">Password is required</small>
                             </div>
                         </div>
                         <div class="checkbox">
-                            <label><input type="checkbox" required> Keep me signed in.</label>
+                            <label><input type="checkbox" (change)="companyChecked($event)" required> Keep me signed in.</label>
                         </div>
                         <br>
                         <input type="submit" class="btn btn-block btn-primary btn-flat m-b-30 m-t-30" value="SIGN IN">
@@ -77,3 +83,6 @@
         </div>
     </div>
 </div>
+
+<!-- Footer -->
+<app-footer></app-footer>
