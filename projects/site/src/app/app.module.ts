@@ -31,6 +31,7 @@ import { TransationsComponent } from './dashboard/transations/transations.compon
 import { WrapperComponent } from './dashboard/wrapper/wrapper.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DashboardHomeComponent } from './dashboard/dashboard-home/dashboard-home.component';
+import { EmployeesComponent } from './dashboard/employees/employees.component';
 
 
 const routes: Routes = [
@@ -40,7 +41,12 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'login', component: LoginComponent },
   { path: 'signup', component: RegisterComponent },
+  { path: 'dashboard', component: DashboardComponent },
   { path: 'forgot-password', component: ForgotPasswordComponent },
+  { path: 'settings', component: SettingsComponent, outlet: 'dashboard-outlet' },
+  { path: 'cards', component: CardsComponent, outlet: 'dashboard-outlet' },
+  { path: 'account', component: AccountComponent, outlet: 'dashboard-outlet' },
+  { path: 'dashboard-home', component: DashboardHomeComponent, outlet: 'dashboard-outlet' },
   { path: '**', component: Page404Component }
 ];
 
@@ -48,7 +54,7 @@ const oktaConfig = {
   issuer: 'https://dev-406179.okta.com',
   redirectUri: 'http://localhost:4200/implicit/callback',
   clientId: '0oa24rrsy0EPl7jSW4x6'
-};
+}
 
 @NgModule({
   declarations: [
@@ -76,6 +82,7 @@ const oktaConfig = {
     WrapperComponent,
     DashboardComponent,
     DashboardHomeComponent,
+    EmployeesComponent,
   ],
   imports: [
     RouterModule.forRoot(routes, { enableTracing: true }),

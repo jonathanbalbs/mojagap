@@ -1,0 +1,21 @@
+.wrapper {
+    background-color: #070713;
+}
+
+.navbar-custom {
+    background-color: #0b0c21 !important;
+    border-bottom: 1px solid white;
+    max-height: 60px;
+}
+
+.fa-power-off-custom {
+    color: #0073bb;
+}
+
+.fa-power-off-custom:hover {
+    color: #f6931d;
+}
+
+.main-panel {
+    background-color: #070713 !important;
+}

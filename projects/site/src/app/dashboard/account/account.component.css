@@ -1,0 +1,55 @@
+.card {
+    background: #0b0c21;
+    margin: 15px 0;
+    padding: 12px;
+    border: 0 solid rgba(120, 130, 140, .13);
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .05);
+    font-family: Roboto, sans-serif;
+}
+
+.card-title {
+    border-bottom: 1px solid rgba(246, 147, 28, .125);
+}
+
+.card-title h4 {
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #f6931c;
+}
+
+.card-body {
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.btn-outline-success {
+    margin-top: 30px;
+}
+
+.btn-outline-danger {
+    margin-top: 95px;
+}
+
+th,
+td {
+    color: white;
+}
+
+.state-active {
+    height: 10px;
+    width: 10px;
+    margin-left: 20px;
+}
+
+.fa-circle {
+    font-size: 6px;
+}

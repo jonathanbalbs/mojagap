@@ -1,1 +1,30 @@
-<p>dashboard works!</p>
+<div class="wrapper ">
+    <app-sidebar></app-sidebar>
+    <div class="main-panel">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-absolute fixed-top navbar-custom" style="background-color: #0b0c21 !important;">
+            <div class="container-fluid">
+                <div class="navbar-wrapper">
+                    <a class="navbar-brand text-white" routerLink="dashboard">Dashboard</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="fa fa-bars text-white"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end">
+
+                    <ul class="navbar-nav my-lg-0">
+                        <li class="nav-item text-white text-sm"> {{ full_name }} </li>&nbsp;&nbsp;&nbsp;
+                        <li class="nav-item" title="logout"><a routerLink="login"><i  class="fa fa-power-off fa-power-off-custom"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navbar -->
+
+        <div class="content">
+            <router-outlet name="dashboard-outlet"></router-outlet>
+        </div>
+        <app-footer></app-footer>
+    </div>
+</div>

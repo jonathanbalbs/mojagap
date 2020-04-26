@@ -1,0 +1,46 @@
+.logo {
+    border-bottom: 1px solid rgba(120, 130, 140);
+}
+
+.logo::after {
+    background-color: transparent !important;
+}
+
+.img-custom {
+    max-height: 28px;
+    margin-left: auto !important;
+}
+
+.side-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.side-menu li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+a {
+    color: #abafb3 !important;
+    padding: 7px 35px 7px 15px;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.side-menu li:hover {
+    background: #10112d;
+    margin-top: 10px;
+    border-left: 2px solid #1976d2;
+    ;
+}
+
+li a i {
+    width: 25px;
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #99abb4;
+}

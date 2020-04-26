@@ -1,0 +1,94 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-title">
+                    <h4>Create employee</h4>
+                </div>
+                <div class="card-body">
+                    <div class="text-center text-muted text-small pb-3">Choose an option</div>
+                    <ul>
+                        <li>
+                            <a routerLink="">Create single employee</a>
+                        </li>
+                        <li>
+                            <a routerLink="">Upload spread sheet to create in bulk</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-title">
+                    <h4>Delete employee</h4>
+                </div>
+                <div class="card-body">
+                    <div class="text-center text-muted text-small pb-3">Enter emloyee information below to delete</div>
+                    <form>
+                        <div class="form-group mb-0">
+                            <input type="text" placeholder="Card number" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" class="form-control">
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-outline-danger">Delete</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-title">
+                    <h4>Deduct from employee</h4>
+                </div>
+                <div class="card-body">
+                    <div class="text-center text-muted text-small pb-3">Enter emloyee information</div>
+                    <form>
+                        <div class="form-group mb-0">
+                            <input type="text" placeholder="Card number" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Amount" class="form-control">
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-outline-danger">Deduct</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-title">
+                    <h4>Top up employee</h4>
+                </div>
+                <div class="card-body">
+                    <div class="text-center text-muted text-small pb-3">Enter emloyee information</div>
+                    <form>
+                        <div class="form-group mb-0">
+                            <input type="text" placeholder="Card number" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Amount" class="form-control">
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-outline-success">Credit</button>
+                        </div>
+                    </form>
+                    <div class="divider mt-3 mb-1"></div>
+                    <div class="text-center sep">
+                        <span class="text-white seperator">or</span>
+                    </div>
+                    <a routerLink="">Upload spread sheet for bulk Top-up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <app-my-employees></app-my-employees>
+
+</div>

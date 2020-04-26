@@ -1,1 +1,66 @@
-<p>sidebar works!</p>
+<div class="sidebar" style="background-color: #0b0c21 !important; box-shadow: 1px 0 20px rgba(0, 0, 0, .08);">
+
+    <div class="logo" style="padding-top: 10px; padding-bottom: 10px">
+        <a routerLink="dashboard" class="simple-text logo-normal">
+            <img src="../../assets/Moja-01logo.png" alt="" class="img-fluid img-custom">
+        </a>
+    </div>
+    <div class="sidebar-wrapper">
+        <ul id="sidebar-menu " class="side-menu">
+
+            <li style="margin-top: 10px;">
+                <a routerLink="/home" aria-expanded="false">
+                    <i class="fa fa-tachometer-alt" aria-hidden="true"></i>
+                    <span class="hide-menu">Dashboard </span>
+                </a>
+            </li>
+            <li>
+                <a routerLink="/cards" aria-expanded="false">
+                    <i class="fa fa-credit-card"></i>
+                    <span class="hide-menu">Manage Cards</span>
+                </a>
+            </li>
+            <!--<li>
+            <a routerLink="/transact" aria-expanded="false">
+                <i class="fa fa-exchange-alt"></i>
+                <span class="hide-menu">Transact</span>
+            </a>
+        </li>-->
+            <li>
+                <a routerLink="/account" aria-expanded="false">
+                    <i class="fa fa-user"></i>
+                    <span class="hide-menu">My Account</span>
+                </a>
+            </li>
+            <li>
+                <a routerLink="/settings" aria-expanded="false">
+                    <i class="fa fa-cog"></i>
+                    <span class="hide-menu">Settings </span>
+                </a>
+            </li>
+            <!--
+            <br>
+            <div class="container">
+                <li style="margin-top: 5px;" class="hide-menu">
+                    <h5>Download App</h5>
+                </li>
+            </div>
+            <li>
+                <a href="#" aria-expanded="false">
+                    <i class="fa fa-play"></i>
+                    <span class="hide-menu"><img class="img-fluid img-store-custom" src="../../assets/gp.svg" width="80%"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#" aria-expanded="false">
+                    <i class="fa fa-apple-alt"></i>
+                    <span class="hide-menu"><img class="img-fluid img-store-custom" src="../../assets/as.svg" width="80%"></span>
+                </a>
+            </li>
+
+            <li style="margin-top: 50px;">
+
+            </li> -->
+        </ul>
+    </div>
+</div>
