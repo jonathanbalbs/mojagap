@@ -8,7 +8,7 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 export class SidebarComponent implements OnInit {
 
   //hide company-links
-  companyDashboard: boolean = true;
+  companyDashboard: boolean = false;
 
   //manage links and bradcrumps to appear in dashboard component
   @Output() activatedLink = new EventEmitter<string>();

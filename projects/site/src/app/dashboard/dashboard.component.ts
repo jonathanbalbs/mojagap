@@ -11,6 +11,9 @@ export class DashboardComponent implements OnInit {
   getLink(link: string) {
     this.activatedSidebarLink = link;
   }
+  setHome() {
+    this.activatedSidebarLink = 'Dashboard'
+  }
 
   //determine account type and retrieve email
   accountEmail: string;
