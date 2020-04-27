@@ -18,7 +18,7 @@
                             <span class="hide-menu">Manage Cards</span>
                         </a>
                     </li>
-                    <li>
+                    <li *ngIf="isCompany">
                         <a routerLink="/employees" aria-expanded="false">
                             <i class="fa fa-users"></i>
                             <span class="hide-menu">Employees</span>

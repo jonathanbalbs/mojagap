@@ -44,3 +44,7 @@ li a i {
     vertical-align: middle;
     color: #99abb4;
 }
+
+li.nav-devider {
+    border-bottom: 1px solid rgba(120, 130, 140, .13);
+}

@@ -5,6 +5,7 @@
     border: 0 solid rgba(120, 130, 140, .13);
     border-radius: 5px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, .05);
+    font-family: Roboto, sans-serif;
 }
 
 .card-title {
@@ -20,26 +21,26 @@
     color: #f6931c;
 }
 
-.main {
-    margin-left: 20px;
-    margin-right: 20px;
-    border-radius: 50px;
+.card-body {
+    color: white;
+    font-weight: normal;
+    font-size: 13px;
 }
 
-.has-search .form-control {
-    padding-left: 2.375rem;
+.card-body a {
+    color: white;
 }
 
-.has-search .form-control-feedback {
-    position: absolute;
-    z-index: 2;
-    display: block;
-    width: 2.375rem;
-    height: 2.375rem;
-    line-height: 2.375rem;
-    text-align: center;
-    pointer-events: none;
-    color: #aaa;
+ul {
+    list-style-type: none;
+}
+
+.btn-outline-success {
+    margin-top: 30px;
+}
+
+.btn-outline-danger {
+    margin-top: 95px;
 }
 
 th,
@@ -50,16 +51,14 @@ td {
 .form-control {
     background-color: transparent;
     border: 0px;
-    color: #f6931c;
-}
-
-.input-group {
-    border: 1px solid rgb(255, 255, 255, .5);
-    border-radius: 50px;
-}
-
-.btn-secondary {
-    background: none;
-    border: none;
+    border-bottom: 1px solid #f6931c;
+    border-radius: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
     color: white;
+    font-size: 13px;
+}
+
+.form-group {
+    margin-bottom: 0px;
 }

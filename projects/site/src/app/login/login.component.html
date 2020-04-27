@@ -17,6 +17,7 @@
                             </div>
                         </div>
                         <div class="form-group">
+                            <small class="text-success text-sm">{{ tempError }}</small>
                             <input type="email" [class.is-invalid]="getEmail.invalid && getEmail.touched" (focus)="showDefault()" class="form-control input-custom" placeholder="Email" name="email" formControlName="email" [(ngModel)]="userForm.email">
                             <div class="text-danger" *ngIf="(getEmail.invalid && getEmail.touched) || getEmail.dirty">
                                 <small *ngIf="getEmail.errors?.required">Email address is required</small>
@@ -52,6 +53,7 @@
                             </div>
                         </div>
                         <div class="form-group">
+                            <small class="text-success text-sm">{{ tempCError }}</small>
                             <input type="email" class="form-control input-custom" [class.is-invalid]="getEmail2.invalid && getEmail2.touched" placeholder="Company email" name="email" formControlName="email2" [(ngModel)]="companyForm.email">
                             <div class="text-danger" *ngIf="(getEmail2.invalid && getEmail2.touched) || getEmail2.dirty">
                                 <small *ngIf="getEmail2.errors?.required">Email address is required</small>

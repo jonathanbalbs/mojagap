@@ -41,23 +41,18 @@ export class LoginComponent implements OnInit {
   passwordError = '';
   userFormErrors = false;
 
+  tempError = '';
+  tempCError = '';
+
   showDefault() {
     this.userFormErrors = false;
   }
 
   validateUserForm() {
-    if (this.userForm.email === ''){
-      this.emailError = 'You must provide an email to continue'
-    }
-    if (this.userForm.password === '') {
-      this.passwordError = 'You must provide a password to continue'
-    }
-    if (this.userForm.email === '' || this.userForm.password === '') {
-      this.userFormErrors =true;
-    }
-
+    this.tempError = "An unknown error occurred, please try again later"
   }
-  valiateCompanyForm() {
+  validateCompanyForm() {
+    this.tempCError = "An unknown error occurred, please try again later"
   }
 
 

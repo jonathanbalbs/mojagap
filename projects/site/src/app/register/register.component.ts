@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
-
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
@@ -10,11 +9,19 @@ export class RegisterComponent implements OnInit {
 
   showUserForm = true;
   showCompanyForm =false;
+  public uEmail = { email: null };
+  public cEmail = { email: null }
+
+  uSubmit() {
+    alert(this.uEmail.email)
+  }
 
   constructor() { }
 
+
   ngOnInit() {
   }
+
 
   showUser() {
     this.showUserForm = true;
@@ -356,5 +363,8 @@ export class RegisterComponent implements OnInit {
   get companyTerms() {
     return this.companyRegisterFormGroup.get('getCompanyTerms')
   }
+
+  //send email to password
+
 
 }

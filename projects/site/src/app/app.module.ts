@@ -1,10 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, ModuleWithProviders } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { HttpClientModule }    from '@angular/common/http';
-import { OktaAuthModule, OktaCallbackComponent } from '@okta/okta-angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -32,6 +31,7 @@ import { WrapperComponent } from './dashboard/wrapper/wrapper.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DashboardHomeComponent } from './dashboard/dashboard-home/dashboard-home.component';
 import { EmployeesComponent } from './dashboard/employees/employees.component';
+import { MyEmployeesComponent } from './dashboard/my-employees/my-employees.component';
 
 
 const routes: Routes = [
@@ -43,10 +43,6 @@ const routes: Routes = [
   { path: 'signup', component: RegisterComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'forgot-password', component: ForgotPasswordComponent },
-  { path: 'settings', component: SettingsComponent, outlet: 'dashboard-outlet' },
-  { path: 'cards', component: CardsComponent, outlet: 'dashboard-outlet' },
-  { path: 'account', component: AccountComponent, outlet: 'dashboard-outlet' },
-  { path: 'dashboard-home', component: DashboardHomeComponent, outlet: 'dashboard-outlet' },
   { path: '**', component: Page404Component }
 ];
 
@@ -83,6 +79,7 @@ const oktaConfig = {
     DashboardComponent,
     DashboardHomeComponent,
     EmployeesComponent,
+    MyEmployeesComponent,
   ],
   imports: [
     RouterModule.forRoot(routes, { enableTracing: true }),

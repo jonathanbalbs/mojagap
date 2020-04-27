@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Routes, ActivatedRoute, ParamMap } from '@angular/router';
 
 @Component({
   selector: 'app-dashboard',
@@ -7,11 +6,21 @@ import { Routes, ActivatedRoute, ParamMap } from '@angular/router';
   styleUrls: ['./dashboard.component.css', '../../assets/dashboard.css']
 })
 export class DashboardComponent implements OnInit {
+  //manage navigation and breadcrumps
+  activatedSidebarLink: string = 'Dashboard';
+  getLink(link: string) {
+    this.activatedSidebarLink = link;
+  }
 
-  constructor(private route: ActivatedRoute) { }
+  //determine account type and retrieve email
+  accountEmail: string;
+
+
+  constructor() { }
 
   ngOnInit() {
-
   }
+
+
 
 }
