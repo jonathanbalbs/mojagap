@@ -31,7 +31,7 @@
     "google-libphonenumber": "^3.2.8",
     "international-phone-number": "0.0.11",
     "intl-tel-input": "^14.1.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jquery-easing": "0.0.1",
     "ng-bootstrap": "^1.6.3",
     "ng-intl-tel-input": "^2.0.0",
